@@ -18,7 +18,7 @@
   --color-acc-deep: oklch(0.35 0.09 25);
 
   --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Karla', system-ui, sans-serif;
+  --font-sans: 'Karla', 'Golos Text', system-ui, sans-serif; /* Golos Text covers Cyrillic */
   --font-mono: 'Cousine', ui-monospace, monospace;
 }
 

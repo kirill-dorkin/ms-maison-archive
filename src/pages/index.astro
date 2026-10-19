@@ -11,7 +11,7 @@ import Layout from '../layouts/Layout.astro';
     <!-- house hero -->
     <section class="flex flex-wrap items-center gap-x-6 gap-y-3.5 border-b border-line pb-4 pt-7 sm:gap-x-12 sm:gap-y-7 sm:pb-9 sm:pt-14">
       <div class="flex min-w-0 flex-[1_1_380px] flex-col">
-        <div class="eti mb-[18px] text-acc" style="letter-spacing:0.18em">Archive editions</div>
+        <div class="eti mb-[18px] text-acc" style="letter-spacing:0.18em">Архивные издания</div>
         <h1 data-hero-title class="font-sf m-0 text-[clamp(30px,4.4vw,46px)] leading-[1.1] tracking-[-0.01em]"></h1>
         <p data-hero-blurb class="m-0 mt-5 max-w-[54ch] text-[14.5px] leading-[1.7] text-soft"></p>
       </div>
@@ -23,14 +23,14 @@ import Layout from '../layouts/Layout.astro';
       <!-- facet rail -->
       <div data-facet-dim class="fixed inset-0 z-[65] hidden bg-[oklch(0.22_0.006_0/0.42)] [&.open]:block lg:hidden"></div>
       <aside data-facet-rail class="scrollbar-thin fixed inset-y-0 left-0 z-[70] flex w-[300px] max-w-[86vw] -translate-x-full flex-col gap-7 overflow-y-auto border-r border-line bg-card p-5 transition-transform duration-300 [&.open]:translate-x-0 lg:sticky lg:top-[86px] lg:z-auto lg:max-h-[calc(100vh-102px)] lg:w-auto lg:min-w-0 lg:max-w-[260px] lg:flex-[1_1_220px] lg:translate-x-0 lg:self-start lg:border-r-0 lg:bg-transparent lg:p-0 lg:pb-2 lg:pr-1">
-        <button data-facet-close class="eti -mb-2 cursor-pointer self-end text-soft transition hover:text-acc lg:hidden">Close ✕</button>
+        <button data-facet-close class="eti -mb-2 cursor-pointer self-end text-soft transition hover:text-acc lg:hidden">Закрыть ✕</button>
         <div class="flex flex-col gap-3">
-          <div class="eti text-muted">Valuation, <span data-cur-sign>$</span></div>
-          <input data-price-range type="range" class="w-full" aria-label="Maximum valuation" />
+          <div class="eti text-muted">Стоимость, <span data-cur-sign>$</span></div>
+          <input data-price-range type="range" class="w-full" aria-label="Максимальная стоимость" />
           <div class="flex items-center gap-2 font-mono text-[12px] text-soft">
-            <input data-price-min aria-label="Minimum valuation" class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
+            <input data-price-min aria-label="Минимальная стоимость" class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
             <span class="text-faint">—</span>
-            <input data-price-max aria-label="Maximum valuation, exact" class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
+            <input data-price-max aria-label="Максимальная стоимость, точно" class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
           </div>
         </div>
         <div data-facets class="flex flex-col gap-7"></div>
@@ -41,19 +41,19 @@ import Layout from '../layouts/Layout.astro';
         <div class="flex flex-wrap items-center gap-x-[18px] gap-y-3 border-b border-line pb-3.5">
           <button data-facet-open class="eti flex cursor-pointer items-center gap-2 rounded-[2px] border border-rule px-2.5 py-[7px] text-soft transition hover:border-faint lg:hidden" style="font-size:11px">
             <svg class="ico-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><line x1="4" y1="7" x2="20" y2="7"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="17" x2="14" y2="17"/></svg>
-            Filters
+            Фильтры
           </button>
           <span data-count class="eti text-muted" style="font-size:11px"></span>
           <span class="flex-1"></span>
-          <select data-sort aria-label="Sort pieces" class="rounded-[2px] border border-rule bg-transparent px-2.5 py-1.5 text-[13px] text-ink outline-none">
-            <option value="archive">Archive selection</option>
-            <option value="asc">Valuation, ascending</option>
-            <option value="desc">Valuation, descending</option>
-            <option value="rare">Museum rarities</option>
+          <select data-sort aria-label="Сортировка" class="rounded-[2px] border border-rule bg-transparent px-2.5 py-1.5 text-[13px] text-ink outline-none">
+            <option value="archive">Выбор архива</option>
+            <option value="asc">Сначала дешевле</option>
+            <option value="desc">Сначала дороже</option>
+            <option value="rare">Музейные редкости</option>
           </select>
           <div class="eti flex gap-3.5" style="font-size:11px">
-            <button data-view="grid" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Grid</button>
-            <button data-view="list" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">List</button>
+            <button data-view="grid" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Сетка</button>
+            <button data-view="list" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Список</button>
           </div>
         </div>
 
@@ -62,8 +62,8 @@ import Layout from '../layouts/Layout.astro';
         <div data-grid></div>
 
         <div data-empty class="hidden py-[72px] text-center text-muted [&.on]:block">
-          <div class="font-sf mb-3 text-[22px]">No matches in the archive</div>
-          <button data-clear-all class="link-rule cursor-pointer text-acc">Clear filters</button>
+          <div class="font-sf mb-3 text-[22px]">В архиве ничего не нашлось</div>
+          <button data-clear-all class="link-rule cursor-pointer text-acc">Сбросить фильтры</button>
         </div>
       </section>
     </div>
@@ -83,7 +83,7 @@ import Layout from '../layouts/Layout.astro';
     let min = 0; let max: number | null = null;
     let sort = 'archive', view = 'grid';
     let open: Record<string, boolean> = { brands: true, materials: true, epochs: false, flags: false };
-    const FLAGS: [string, string][] = [['stock', 'In the vault'], ['bespoke', 'Bespoke commission']];
+    const FLAGS: [string, string][] = [['stock', 'В хранилище'], ['bespoke', 'На заказ']];
 
     const pool = () => D.pieces.filter((p: any) => p.house === getHouse());
     function bounds() {
@@ -119,7 +119,7 @@ import Layout from '../layouts/Layout.astro';
       $('[data-hero-title]').textContent = h.title;
       $('[data-hero-blurb]').textContent = h.blurb;
       $('[data-hero-tiles]').innerHTML = (h.heroTiles || []).map((tl: any) => `
-        <button data-hero-tile data-era="${tl.label}" title="Show ${tl.label} pieces" class="hatch group flex aspect-[3/4] w-[64%] flex-none snap-center cursor-pointer items-end border border-line bg-cover bg-center p-2.5 sm:w-auto sm:min-w-0 sm:flex-1 shadow-[0_14px_28px_-18px_oklch(0.22_0.006_0/0.45)] transition hover:border-acc" style="background-image:url('${tl.img}')">
+        <button data-hero-tile data-era="${tl.label}" title="Показать: ${tl.label}" class="hatch group flex aspect-[3/4] w-[64%] flex-none snap-center cursor-pointer items-end border border-line bg-cover bg-center p-2.5 sm:w-auto sm:min-w-0 sm:flex-1 shadow-[0_14px_28px_-18px_oklch(0.22_0.006_0/0.45)] transition hover:border-acc" style="background-image:url('${tl.img}')">
           <span class="bg-card px-1.5 py-[3px] font-mono text-[10px] tracking-[0.08em] text-faint transition group-hover:text-acc">${tl.label}</span>
         </button>`).join('');
     }
@@ -183,9 +183,9 @@ import Layout from '../layouts/Layout.astro';
 
       $('[data-facets]').innerHTML =
         facetGroup('brands', h.brandLabel, uniq('brand').map((v) => ({ label: v, count: count('brand', v), on: brands.has(v) })), 'data-f-brand') +
-        facetGroup('materials', 'Material', uniq('material').map((v) => ({ label: v, count: count('material', v), on: materials.has(v) })), 'data-f-material') +
-        facetGroup('epochs', 'Era', uniq('epoch').map((v) => ({ label: v, count: count('epoch', v), on: epochs.has(v) })), 'data-f-epoch') +
-        facetGroup('flags', 'Availability', FLAGS.map(([k, label]) => ({ label, count: '', on: flags.has(k) })), 'data-f-flag');
+        facetGroup('materials', 'Материал', uniq('material').map((v) => ({ label: v, count: count('material', v), on: materials.has(v) })), 'data-f-material') +
+        facetGroup('epochs', 'Эпоха', uniq('epoch').map((v) => ({ label: v, count: count('epoch', v), on: epochs.has(v) })), 'data-f-epoch') +
+        facetGroup('flags', 'Наличие', FLAGS.map(([k, label]) => ({ label, count: '', on: flags.has(k) })), 'data-f-flag');
     }
 
     // ── chips ──
@@ -203,7 +203,7 @@ import Layout from '../layouts/Layout.astro';
         <button data-chip="${i}" class="flex cursor-pointer items-center gap-2 rounded-[2px] border border-[oklch(0.86_0.02_25)] px-[9px] py-[5px] text-[12.5px] text-[oklch(0.4_0.06_25)] transition hover:bg-[oklch(0.955_0.012_25)]">
           <span>${c.label}</span><span class="font-mono text-[11px]">✕</span>
         </button>`).join('') +
-        (chips.length ? '<button data-chips-clear class="eti ml-1.5 cursor-pointer text-faint" style="font-size:11px">Clear all</button>' : '');
+        (chips.length ? '<button data-chips-clear class="eti ml-1.5 cursor-pointer text-faint" style="font-size:11px">Сбросить всё</button>' : '');
     }
 
     // ── cards ──
@@ -211,11 +211,11 @@ import Layout from '../layouts/Layout.astro';
     const BAG = `<svg class="ico-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>`;
     function bagBtn(p: any, extra = ''): string {
       const inBag = bagOf().includes(p.handle);
-      return `<button data-card-bag="${p.handle}" class="btn-keeper flex items-center justify-center gap-2 px-4 py-2.5 ${inBag ? 'is-on' : ''} ${extra}">${BAG}<span>${inBag ? 'In the bag ✓' : 'Add to bag'}</span></button>`;
+      return `<button data-card-bag="${p.handle}" class="btn-keeper flex items-center justify-center gap-2 px-4 py-2.5 ${inBag ? 'is-on' : ''} ${extra}">${BAG}<span>${inBag ? 'В корзине ✓' : 'В корзину'}</span></button>`;
     }
     function heartPin(p: any, extra = ''): string {
       const saved = savedOf().includes(p.handle);
-      return `<button data-card-save="${p.handle}" title="${saved ? 'Remove from vault' : 'Save to vault'}" class="pin-btn ${saved ? 'is-on' : ''} ${extra}">${HEART(saved)}</button>`;
+      return `<button data-card-save="${p.handle}" title="${saved ? 'Убрать из хранилища' : 'В хранилище'}" class="pin-btn ${saved ? 'is-on' : ''} ${extra}">${HEART(saved)}</button>`;
     }
     function card(p: any): string {
       return `
@@ -232,14 +232,14 @@ import Layout from '../layouts/Layout.astro';
             <span class="text-[13px] text-soft">${p.material}</span>
             <div class="mt-1 flex items-baseline gap-2.5">
               <span class="font-mono text-[13px]" data-usd="${p.price}">${money(p.price)}</span>
-              ${p.bespoke ? '<span class="eti text-acc" style="font-size:10px">Bespoke only</span>' : ''}
+              ${p.bespoke ? '<span class="eti text-acc" style="font-size:10px">Только на заказ</span>' : ''}
             </div>
             ${bagBtn(p, 'mt-2 w-full')}
           </div>
         </article>`;
     }
     function listRow(p: any): string {
-      const avail = p.bespoke ? 'Bespoke' : (p.stock ? 'In vault' : 'On request');
+      const avail = p.bespoke ? 'На заказ' : (p.stock ? 'В хранилище' : 'По запросу');
       return `
         <article class="flex flex-wrap items-start gap-x-[26px] gap-y-4 border-b border-line py-[22px] transition hover:bg-card">
           <div class="relative flex-none">
@@ -262,7 +262,7 @@ import Layout from '../layouts/Layout.astro';
     function paintGrid() {
       const h = houseOf(getHouse());
       const items = filtered();
-      $('[data-count]').textContent = `${items.length} of ${pool().length} pieces`;
+      $('[data-count]').textContent = `${items.length} из ${pool().length} предметов`;
       $('[data-empty]').classList.toggle('on', items.length === 0);
       document.querySelectorAll<HTMLElement>('[data-view]').forEach((b) => b.classList.toggle('on', b.dataset.view === view));
       const grid = $('[data-grid]');

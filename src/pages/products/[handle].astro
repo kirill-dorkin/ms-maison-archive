@@ -19,7 +19,7 @@ const related = (await commerce.listProducts())
   .filter((x) => x.collectionHandles[0] === product.collectionHandles[0] && (x as any).meta?.material === meta.material && x.handle !== product.handle)
   .slice(0, 3);
 
-const availability = meta.bespoke ? 'Bespoke commission only' : meta.stock ? 'Held in the vault' : 'On request from the keeper';
+const availability = meta.bespoke ? 'Только на заказ' : meta.stock ? 'В хранилище' : 'По запросу у хранителя';
 const productLd = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Product',
@@ -36,12 +36,12 @@ const productLd = JSON.stringify({
 });
 
 const specs: [string, string][] = [
-  ['Reference', meta.ref],
-  ['Material', meta.material],
-  ['Era', meta.epoch],
-  ['Origin', meta.origin],
-  ['Specification', meta.spec],
-  ['Availability', availability],
+  ['Артикул', meta.ref],
+  ['Материал', meta.material],
+  ['Эпоха', meta.epoch],
+  ['Происхождение', meta.origin],
+  ['Характеристики', meta.spec],
+  ['Наличие', availability],
 ];
 ---
 
@@ -75,21 +75,21 @@ const specs: [string, string][] = [
         <div class="flex flex-wrap items-center gap-x-[14px] gap-y-3.5 border-t border-rule pt-5">
           <span class="font-mono text-[19px]" data-usd={product.price.amount}>${product.price.amount.toLocaleString('en-US')}</span>
           <span class="flex-1"></span>
-          <button data-card-save={product.handle} title="Save to vault" class="pin-btn" style="width:42px;height:42px">
+          <button data-card-save={product.handle} title="В хранилище" class="pin-btn" style="width:42px;height:42px">
             <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
           </button>
           <button data-card-bag={product.handle} class="btn-keeper flex items-center gap-2 px-[22px] py-[13px]">
             <svg class="ico-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-            <span>Add to bag</span>
+            <span>В корзину</span>
           </button>
         </div>
-        <p class="m-0 text-[12.5px] leading-[1.6] text-muted">{meta.bespoke ? 'Book the atelier' : 'Request this piece'} — the keeper replies within one business day.</p>
+        <p class="m-0 text-[12.5px] leading-[1.6] text-muted">{meta.bespoke ? 'Записаться в ателье' : 'Запросить предмет'} — хранитель ответит в течение рабочего дня.</p>
       </div>
     </section>
 
     {related.length > 0 && (
       <section class="border-t border-line pb-10 pt-10">
-        <h2 class="eti m-0 mb-6 text-muted" style="letter-spacing:0.16em">Also in {meta.material}</h2>
+        <h2 class="eti m-0 mb-6 text-muted" style="letter-spacing:0.16em">Ещё из материала «{meta.material}»</h2>
         <div class="grid gap-x-[30px] gap-y-10" style="grid-template-columns:repeat(auto-fill,minmax(210px,1fr))">
           {related.map((r) => (
             <a href={`/products/${r.handle}`} class="flex flex-col gap-3.5">

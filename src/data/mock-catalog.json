@@ -4,86 +4,86 @@
    "handle": "horlogerie",
    "name": "Maison de Haute Horlogerie",
    "short": "Haute Horlogerie",
-   "meta": "Est. 1888 · Genève",
-   "brandLabel": "House",
-   "title": "Swiss complications and pocket chronometers",
-   "blurb": "Tourbillons, perpetual calendars and Grand Feu enamel bearing the Geneva Seal. Every piece is attested by the workshop archive before it enters the register.",
-   "megaImage": "workshop bench, wide",
-   "megaTitle": "The 1888 Register",
-   "manifesto": "Four watchmakers, one bench, no series production. Pieces leave Geneva only once the archive can account for every component.",
+   "meta": "Осн. 1888 · Женева",
+   "brandLabel": "Дом",
+   "title": "Швейцарские усложнения и карманные хронометры",
+   "blurb": "Турбийоны, вечные календари и эмаль Grand Feu с Женевским клеймом. Каждая вещь проходит проверку по архиву мастерской, прежде чем попасть в реестр.",
+   "megaImage": "верстак мастерской",
+   "megaTitle": "Реестр 1888 года",
+   "manifesto": "Четыре часовщика, один верстак, никаких серий. Вещь покидает Женеву, только когда архив может подтвердить каждую деталь.",
    "mega": [
     {
-     "title": "Complications",
+     "title": "Усложнения",
      "links": [
       [
-       "Tourbillons",
-       "One-minute carriages, hand-engraved bridges"
+       "Турбийоны",
+       "Минутные каретки, гравированные мосты"
       ],
       [
-       "Perpetual calendars",
-       "Leap-year cycles in Grand Feu enamel"
+       "Вечные календари",
+       "Високосный цикл в эмали Grand Feu"
       ],
       [
-       "Minute repeaters",
-       "Cathedral gongs, cased to order"
+       "Минутные репетиры",
+       "Гонги «собор», корпус на заказ"
       ]
      ]
     },
     {
-     "title": "Pocket & desk",
+     "title": "Карманные и настольные",
      "links": [
       [
-       "Pocket chronometers",
-       "Observatory-certified movements"
+       "Карманные хронометры",
+       "Механизмы с сертификатом обсерватории"
       ],
       [
-       "Table regulators",
-       "Seconds pendulum, eight-day run"
+       "Настольные регуляторы",
+       "Секундный маятник, восемь дней хода"
       ],
       [
-       "Travel clocks",
-       "Rosewood and brass"
+       "Дорожные часы",
+       "Палисандр и латунь"
       ]
      ]
     },
     {
-     "title": "By era",
+     "title": "По эпохам",
      "links": [
       [
-       "Victorian 1890s",
-       "Hunter cases and enamel dials"
+       "Викторианская, 1890-е",
+       "Крышки-хантер и эмалевые циферблаты"
       ],
       [
-       "Art Deco 1930s",
-       "Applied indices, column wheels"
+       "Ар-деко, 1930-е",
+       "Накладные индексы, колонное колесо"
       ],
       [
-       "Belle Époque",
-       "Guilloché centres, breguet numerals"
+       "Прекрасная эпоха",
+       "Гильоше и цифры Бреге"
       ]
      ]
     }
    ],
    "suggestions": [
-    "Tourbillon",
+    "Турбийон",
     "Grand Feu",
-    "Platinum 950",
-    "Chronometer"
+    "Платина 950",
+    "Хронометр"
    ],
    "count": 12,
    "heroImage": "/products/mhh-0398.jpg",
    "megaImageSrc": "/products/mhh-1888.jpg",
    "heroTiles": [
     {
-     "label": "Belle Époque",
+     "label": "Прекрасная эпоха",
      "img": "/products/mhh-0398.jpg"
     },
     {
-     "label": "Art Deco 1930s",
+     "label": "Ар-деко, 1930-е",
      "img": "/products/mhh-0611.jpg"
     },
     {
-     "label": "Victorian 1890s",
+     "label": "Викторианская, 1890-е",
      "img": "/products/mhh-1888.jpg"
     }
    ]
@@ -92,86 +92,86 @@
    "handle": "kingsman",
    "name": "Ashcombe & Sterling Bespoke",
    "short": "Ashcombe & Sterling",
-   "meta": "Est. 1904 · Savile Row",
-   "brandLabel": "Atelier",
-   "title": "Hand tailoring on a floating canvas",
-   "blurb": "Floating-canvas suits, cashmere ulsters and Goodyear-welted oxfords. Measurements stay in the atelier archive for the patron's lifetime.",
-   "megaImage": "cutting room, wide",
-   "megaTitle": "The Row Ledger",
-   "manifesto": "Every pattern is cut by hand and kept on the shelf. A patron's block is never retired, only amended.",
+   "meta": "Осн. 1904 · Сэвил-Роу",
+   "brandLabel": "Ателье",
+   "title": "Ручной пошив на плавающем холсте",
+   "blurb": "Костюмы на плавающем холсте, кашемировые ольстеры и оксфорды гудиер. Мерки хранятся в архиве ателье всю жизнь владельца.",
+   "megaImage": "закройный цех",
+   "megaTitle": "Книга Сэвил-Роу",
+   "manifesto": "Каждое лекало кроится вручную и хранится на полке. Лекало владельца никогда не выбрасывают — только дорабатывают.",
    "mega": [
     {
-     "title": "Tailoring",
+     "title": "Пошив",
      "links": [
       [
-       "Bespoke suits",
-       "Floating canvas, four fittings"
+       "Костюмы на заказ",
+       "Плавающий холст, четыре примерки"
       ],
       [
-       "Dinner tailoring",
-       "Shawl collars and barathea"
+       "Вечерние костюмы",
+       "Шалевые воротники и баратея"
       ],
       [
-       "Country jackets",
-       "Handwoven tweeds"
+       "Загородные пиджаки",
+       "Твид ручного ткачества"
       ]
      ]
     },
     {
-     "title": "Outerwear",
+     "title": "Верхняя одежда",
      "links": [
       [
-       "Cashmere ulsters",
-       "Double-faced, 780 g"
+       "Кашемировые ольстеры",
+       "Двусторонний, 780 г"
       ],
       [
-       "Covert coats",
-       "Four rows of stitching"
+       "Пальто коверт",
+       "Четыре строчки"
       ],
       [
-       "Travel capes",
-       "Waxed cotton lining"
+       "Дорожные накидки",
+       "Подкладка из вощёного хлопка"
       ]
      ]
     },
     {
-     "title": "Accoutrements",
+     "title": "Аксессуары",
      "links": [
       [
-       "Goodyear oxfords",
-       "Oak-bark double soles"
+       "Оксфорды гудиер",
+       "Двойная подошва дубового дубления"
       ],
       [
-       "Seven-fold ties",
-       "Unlined Como silk"
+       "Галстуки в семь сложений",
+       "Шёлк из Комо без подкладки"
       ],
       [
-       "Sea Island shirts",
-       "Detachable collars"
+       "Рубашки Sea Island",
+       "Съёмные воротники"
       ]
      ]
     }
    ],
    "suggestions": [
-    "Cashmere",
-    "Goodyear",
+    "Кашемир",
+    "Гудиер",
     "Super 160s",
-    "Seven-fold"
+    "Семь сложений"
    ],
    "count": 12,
    "heroImage": "/products/ks-3311.jpg",
    "megaImageSrc": "/products/ks-3520.jpg",
    "heroTiles": [
     {
-     "label": "Belle Époque",
+     "label": "Прекрасная эпоха",
      "img": "/products/ks-2455.jpg"
     },
     {
-     "label": "Art Deco 1930s",
+     "label": "Ар-деко, 1930-е",
      "img": "/products/ks-2712.jpg"
     },
     {
-     "label": "Victorian 1890s",
+     "label": "Викторианская, 1890-е",
      "img": "/products/ks-3520.jpg"
     }
    ]
@@ -180,86 +180,86 @@
    "handle": "bibliophiles",
    "name": "L'Atelier des Bibliophiles",
    "short": "Bibliophiles",
-   "meta": "Est. 1792 · Paris",
-   "brandLabel": "Imprint",
-   "title": "First editions, astrolabes and writing instruments",
-   "blurb": "1751 editions in morocco, brass astrolabes and 14K nibs. Every lot carries a condition report and a documented provenance.",
-   "megaImage": "bindery table, wide",
-   "megaTitle": "The 1792 Cabinet",
-   "manifesto": "Nothing enters the cabinet without a provenance a scholar could follow. Condition reports are written by hand and kept with the lot.",
+   "meta": "Осн. 1792 · Париж",
+   "brandLabel": "Издатель",
+   "title": "Первые издания, астролябии и письменные приборы",
+   "blurb": "Издания 1751 года в сафьяне, латунные астролябии и золотые перья. У каждого лота — отчёт о состоянии и подтверждённое происхождение.",
+   "megaImage": "стол переплётчика",
+   "megaTitle": "Кабинет 1792 года",
+   "manifesto": "В кабинет не попадает ничего без истории владения, которую мог бы проследить учёный. Отчёты о состоянии пишутся от руки и хранятся вместе с лотом.",
    "mega": [
     {
-     "title": "Books",
+     "title": "Книги",
      "links": [
       [
-       "First editions",
-       "Morocco bindings, complete plates"
+       "Первые издания",
+       "Сафьяновые переплёты, полные комплекты гравюр"
       ],
       [
-       "Bespoke binding",
-       "Six-pass armorial tooling"
+       "Переплёт на заказ",
+       "Гербовое тиснение в шесть проходов"
       ],
       [
-       "Atlases",
-       "Engraved and hand-coloured"
+       "Атласы",
+       "Гравированные и раскрашенные вручную"
       ]
      ]
     },
     {
-     "title": "Instruments",
+     "title": "Инструменты",
      "links": [
       [
-       "Astrolabes",
-       "Engraved latitude tympans"
+       "Астролябии",
+       "Гравированные широтные тимпаны"
       ],
       [
-       "Celestial globes",
-       "Hevelius constellations"
+       "Небесные глобусы",
+       "Созвездия по Гевелию"
       ],
       [
-       "Sextants",
-       "Vernier, original cases"
+       "Секстанты",
+       "Нониус, оригинальные футляры"
       ]
      ]
     },
     {
-     "title": "Desk",
+     "title": "Для стола",
      "links": [
       [
-       "Fountain pens",
-       "14K nibs set by hand"
+       "Перьевые ручки",
+       "Золотые перья, настройка вручную"
       ],
       [
-       "Blotters",
-       "Morocco with gilt rule"
+       "Бювары",
+       "Сафьян с золотой линией"
       ],
       [
-       "Russia-leather cases",
-       "Birch-tanned, saddle-stitched"
+       "Футляры из юфти",
+       "Берёзовое дубление, седельный шов"
       ]
      ]
     }
    ],
    "suggestions": [
-    "First edition",
-    "Astrolabe",
-    "14K nib",
-    "Morocco"
+    "Первое издание",
+    "Астролябия",
+    "Золотое перо",
+    "Сафьян"
    ],
    "count": 12,
    "heroImage": "/products/ab-0899.jpg",
    "megaImageSrc": "/products/ab-1234.jpg",
    "heroTiles": [
     {
-     "label": "Enlightenment",
+     "label": "Просвещение",
      "img": "/products/ab-0899.jpg"
     },
     {
-     "label": "Belle Époque",
+     "label": "Прекрасная эпоха",
      "img": "/products/ab-2010.jpg"
     },
     {
-     "label": "Victorian 1890s",
+     "label": "Викторианская, 1890-е",
      "img": "/products/ab-1234.jpg"
     }
    ]
@@ -269,13 +269,13 @@
   {
    "id": "mhh-1140",
    "handle": "mhh-1140-minute-bridge-tourbillon",
-   "title": "Minute-bridge Tourbillon",
-   "description": "One-minute tourbillon with a hand-engraved bridge and 72-hour reserve.",
+   "title": "Турбийон с минутным мостом",
+   "description": "Минутный турбийон с гравированным вручную мостом и запасом хода 72 часа.",
    "vendor": "Reverchon & Fils",
    "images": [
     {
      "src": "/products/mhh-1140.jpg",
-     "alt": "Minute-bridge Tourbillon — watch, three-quarter"
+     "alt": "Турбийон с минутным мостом — часы, три четверти"
     }
    ],
    "price": {
@@ -285,7 +285,7 @@
    "variants": [
     {
      "id": "mhh-1140v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 486000,
       "currency": "USD"
@@ -294,36 +294,36 @@
     }
    ],
    "tags": [
-    "Platinum 950",
-    "Belle Époque",
-    "Geneva"
+    "Платина 950",
+    "Прекрасная эпоха",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-1140",
-    "material": "Platinum 950",
-    "epoch": "Belle Époque",
-    "origin": "Geneva",
+    "material": "Платина 950",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Женева",
     "rating": 4.9,
     "stock": true,
     "bespoke": false,
-    "kind": "watch, three-quarter",
-    "note": "One-minute tourbillon with a hand-engraved bridge and 72-hour reserve.",
-    "spec": "Calibre 2260 · 44 mm · platinum 950"
+    "kind": "часы, три четверти",
+    "note": "Минутный турбийон с гравированным вручную мостом и запасом хода 72 часа.",
+    "spec": "Калибр 2260 · 44 мм · платина 950"
    }
   },
   {
    "id": "mhh-0872",
    "handle": "mhh-0872-grand-feu-perpetual-calendar",
-   "title": "Grand Feu Perpetual Calendar",
-   "description": "Grand Feu enamel dial fired four times, with moon-phase indication.",
+   "title": "Вечный календарь Grand Feu",
+   "description": "Эмалевый циферблат Grand Feu, обожжённый четыре раза, с индикацией фаз Луны.",
    "vendor": "Duret & Frères",
    "images": [
     {
      "src": "/products/mhh-0872.jpg",
-     "alt": "Grand Feu Perpetual Calendar — dial, macro"
+     "alt": "Вечный календарь Grand Feu — циферблат, макро"
     }
    ],
    "price": {
@@ -333,7 +333,7 @@
    "variants": [
     {
      "id": "mhh-0872v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 312000,
       "currency": "USD"
@@ -342,36 +342,36 @@
     }
    ],
    "tags": [
-    "Gold 18K",
-    "Art Deco 1930s",
-    "Geneva"
+    "Золото 750",
+    "Ар-деко, 1930-е",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-0872",
-    "material": "Gold 18K",
-    "epoch": "Art Deco 1930s",
-    "origin": "Geneva",
+    "material": "Золото 750",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Женева",
     "rating": 4.9,
     "stock": true,
     "bespoke": false,
-    "kind": "dial, macro",
-    "note": "Grand Feu enamel dial fired four times, with moon-phase indication.",
-    "spec": "Calibre 1120 QP · 39 mm · gold 18K"
+    "kind": "циферблат, макро",
+    "note": "Эмалевый циферблат Grand Feu, обожжённый четыре раза, с индикацией фаз Луны.",
+    "spec": "Калибр 1120 QP · 39 мм · золото 750"
    }
   },
   {
    "id": "mhh-0455",
    "handle": "mhh-0455-sealed-pocket-chronometer",
-   "title": "Sealed Pocket Chronometer",
-   "description": "Observation chronometer with its original Neuchâtel observatory bulletin.",
+   "title": "Запечатанный карманный хронометр",
+   "description": "Обсерваторный хронометр с оригинальным бюллетенем Невшательской обсерватории.",
    "vendor": "Aubry Horlogers",
    "images": [
     {
      "src": "/products/mhh-0455.jpg",
-     "alt": "Sealed Pocket Chronometer — pocket watch, cover"
+     "alt": "Запечатанный карманный хронометр — карманные часы, крышка"
     }
    ],
    "price": {
@@ -381,7 +381,7 @@
    "variants": [
     {
      "id": "mhh-0455v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 148000,
       "currency": "USD"
@@ -390,36 +390,36 @@
     }
    ],
    "tags": [
-    "Gold 18K",
-    "Victorian 1890s",
-    "Geneva"
+    "Золото 750",
+    "Викторианская, 1890-е",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-0455",
-    "material": "Gold 18K",
-    "epoch": "Victorian 1890s",
-    "origin": "Geneva",
+    "material": "Золото 750",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Женева",
     "rating": 4.7,
     "stock": false,
     "bespoke": false,
-    "kind": "pocket watch, cover",
-    "note": "Observation chronometer with its original Neuchâtel observatory bulletin.",
-    "spec": "Manual wind · 52 mm · hunter case"
+    "kind": "карманные часы, крышка",
+    "note": "Обсерваторный хронометр с оригинальным бюллетенем Невшательской обсерватории.",
+    "spec": "Ручной завод · 52 мм · крышка-хантер"
    }
   },
   {
    "id": "mhh-1502",
    "handle": "mhh-1502-salon-minute-repeater",
-   "title": "Salon Minute Repeater",
-   "description": "Cathedral-gong repeater; the case is assembled for a named patron.",
+   "title": "Салонный минутный репетир",
+   "description": "Репетир с гонгами «собор»; корпус собирается для конкретного владельца.",
    "vendor": "Reverchon & Fils",
    "images": [
     {
      "src": "/products/mhh-1502.jpg",
-     "alt": "Salon Minute Repeater — watch, profile"
+     "alt": "Салонный минутный репетир — часы, профиль"
     }
    ],
    "price": {
@@ -429,7 +429,7 @@
    "variants": [
     {
      "id": "mhh-1502v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 742000,
       "currency": "USD"
@@ -438,36 +438,36 @@
     }
    ],
    "tags": [
-    "Platinum 950",
-    "Art Deco 1930s",
-    "Geneva"
+    "Платина 950",
+    "Ар-деко, 1930-е",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-1502",
-    "material": "Platinum 950",
-    "epoch": "Art Deco 1930s",
-    "origin": "Geneva",
+    "material": "Платина 950",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Женева",
     "rating": 5.0,
     "stock": false,
     "bespoke": true,
-    "kind": "watch, profile",
-    "note": "Cathedral-gong repeater; the case is assembled for a named patron.",
-    "spec": "Calibre 2755 · 41 mm · platinum 950"
+    "kind": "часы, профиль",
+    "note": "Репетир с гонгами «собор»; корпус собирается для конкретного владельца.",
+    "spec": "Калибр 2755 · 41 мм · платина 950"
    }
   },
   {
    "id": "mhh-0611",
    "handle": "mhh-0611-column-wheel-chronograph",
-   "title": "Column-wheel Chronograph",
-   "description": "Column wheel and horizontal clutch under applied Arabic indices.",
+   "title": "Хронограф с колонным колесом",
+   "description": "Колонное колесо и горизонтальное сцепление под накладными арабскими цифрами.",
    "vendor": "Albrecht Werkstatt",
    "images": [
     {
      "src": "/products/mhh-0611.jpg",
-     "alt": "Column-wheel Chronograph — watch, dial"
+     "alt": "Хронограф с колонным колесом — часы, циферблат"
     }
    ],
    "price": {
@@ -477,7 +477,7 @@
    "variants": [
     {
      "id": "mhh-0611v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 96000,
       "currency": "USD"
@@ -486,36 +486,36 @@
     }
    ],
    "tags": [
-    "Steel",
-    "Art Deco 1930s",
-    "Glashütte"
+    "Сталь",
+    "Ар-деко, 1930-е",
+    "Гласхютте"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-0611",
-    "material": "Steel",
-    "epoch": "Art Deco 1930s",
-    "origin": "Glashütte",
+    "material": "Сталь",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Гласхютте",
     "rating": 4.5,
     "stock": true,
     "bespoke": false,
-    "kind": "watch, dial",
-    "note": "Column wheel and horizontal clutch under applied Arabic indices.",
-    "spec": "Calibre L951 · 39.5 mm · steel"
+    "kind": "часы, циферблат",
+    "note": "Колонное колесо и горизонтальное сцепление под накладными арабскими цифрами.",
+    "spec": "Калибр L951 · 39,5 мм · сталь"
    }
   },
   {
    "id": "mhh-0398",
    "handle": "mhh-0398-table-regulator",
-   "title": "Table Regulator",
-   "description": "Precision regulator with a seconds pendulum in a rosewood case.",
+   "title": "Настольный регулятор",
+   "description": "Прецизионный регулятор с секундным маятником в корпусе из палисандра.",
    "vendor": "Aubry Horlogers",
    "images": [
     {
      "src": "/products/mhh-0398.jpg",
-     "alt": "Table Regulator — table clock"
+     "alt": "Настольный регулятор — настольные часы"
     }
    ],
    "price": {
@@ -525,7 +525,7 @@
    "variants": [
     {
      "id": "mhh-0398v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 54000,
       "currency": "USD"
@@ -534,36 +534,36 @@
     }
    ],
    "tags": [
-    "Brass",
-    "Victorian 1890s",
-    "Florence"
+    "Латунь",
+    "Викторианская, 1890-е",
+    "Флоренция"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-0398",
-    "material": "Brass",
-    "epoch": "Victorian 1890s",
-    "origin": "Florence",
+    "material": "Латунь",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Флоренция",
     "rating": 4.4,
     "stock": true,
     "bespoke": false,
-    "kind": "table clock",
-    "note": "Precision regulator with a seconds pendulum in a rosewood case.",
-    "spec": "Eight-day run · 380 mm · brass"
+    "kind": "настольные часы",
+    "note": "Прецизионный регулятор с секундным маятником в корпусе из палисандра.",
+    "spec": "Восемь дней хода · 380 мм · латунь"
    }
   },
   {
    "id": "mhh-1291",
    "handle": "mhh-1291-voyageur-dual-time",
-   "title": "Voyageur Dual Time",
-   "description": "Second time zone with day-night indication over a guilloché centre.",
+   "title": "Voyageur с двумя часовыми поясами",
+   "description": "Второй часовой пояс с индикацией дня и ночи над гильошированным центром.",
    "vendor": "Duret & Frères",
    "images": [
     {
      "src": "/products/mhh-1291.jpg",
-     "alt": "Voyageur Dual Time — watch on strap"
+     "alt": "Voyageur с двумя часовыми поясами — часы на ремешке"
     }
    ],
    "price": {
@@ -573,7 +573,7 @@
    "variants": [
     {
      "id": "mhh-1291v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 178000,
       "currency": "USD"
@@ -582,36 +582,36 @@
     }
    ],
    "tags": [
-    "Gold 18K",
-    "Belle Époque",
-    "Geneva"
+    "Золото 750",
+    "Прекрасная эпоха",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-1291",
-    "material": "Gold 18K",
-    "epoch": "Belle Époque",
-    "origin": "Geneva",
+    "material": "Золото 750",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Женева",
     "rating": 4.6,
     "stock": true,
     "bespoke": false,
-    "kind": "watch on strap",
-    "note": "Second time zone with day-night indication over a guilloché centre.",
-    "spec": "Calibre 1222 · 40 mm · gold 18K"
+    "kind": "часы на ремешке",
+    "note": "Второй часовой пояс с индикацией дня и ночи над гильошированным центром.",
+    "spec": "Калибр 1222 · 40 мм · золото 750"
    }
   },
   {
    "id": "mhh-1777",
    "handle": "mhh-1777-museum-skeleton",
-   "title": "Museum Skeleton",
-   "description": "Single example from the workshop archive, skeletonised entirely by hand.",
+   "title": "Музейный скелетон",
+   "description": "Единственный экземпляр из архива мастерской, полностью скелетонированный вручную.",
    "vendor": "Albrecht Werkstatt",
    "images": [
     {
      "src": "/products/mhh-1777.jpg",
-     "alt": "Museum Skeleton — movement, macro"
+     "alt": "Музейный скелетон — механизм, макро"
     }
    ],
    "price": {
@@ -621,7 +621,7 @@
    "variants": [
     {
      "id": "mhh-1777v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 925000,
       "currency": "USD"
@@ -630,36 +630,36 @@
     }
    ],
    "tags": [
-    "Platinum 950",
-    "Belle Époque",
-    "Glashütte"
+    "Платина 950",
+    "Прекрасная эпоха",
+    "Гласхютте"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-1777",
-    "material": "Platinum 950",
-    "epoch": "Belle Époque",
-    "origin": "Glashütte",
+    "material": "Платина 950",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Гласхютте",
     "rating": 5.0,
     "stock": false,
     "bespoke": true,
-    "kind": "movement, macro",
-    "note": "Single example from the workshop archive, skeletonised entirely by hand.",
-    "spec": "Calibre L102 · 38 mm · platinum 950"
+    "kind": "механизм, макро",
+    "note": "Единственный экземпляр из архива мастерской, полностью скелетонированный вручную.",
+    "spec": "Калибр L102 · 38 мм · платина 950"
    }
   },
   {
    "id": "mhh-0233",
    "handle": "mhh-0233-enamel-hunter-pocket-watch",
-   "title": "Enamel Hunter Pocket Watch",
-   "description": "Hunter case with a hand-painted enamel scene inside the cover.",
+   "title": "Карманные часы-хантер с эмалью",
+   "description": "Корпус-хантер с расписанной вручную эмалевой сценой под крышкой.",
    "vendor": "Aubry Horlogers",
    "images": [
     {
      "src": "/products/mhh-0233.jpg",
-     "alt": "Enamel Hunter Pocket Watch — pocket watch, open"
+     "alt": "Карманные часы-хантер с эмалью — карманные часы, открыты"
     }
    ],
    "price": {
@@ -669,7 +669,7 @@
    "variants": [
     {
      "id": "mhh-0233v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 89000,
       "currency": "USD"
@@ -678,36 +678,36 @@
     }
    ],
    "tags": [
-    "Gold 18K",
-    "Victorian 1890s",
-    "Geneva"
+    "Золото 750",
+    "Викторианская, 1890-е",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-0233",
-    "material": "Gold 18K",
-    "epoch": "Victorian 1890s",
-    "origin": "Geneva",
+    "material": "Золото 750",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Женева",
     "rating": 4.5,
     "stock": true,
     "bespoke": false,
-    "kind": "pocket watch, open",
-    "note": "Hunter case with a hand-painted enamel scene inside the cover.",
-    "spec": "Manual wind · 48 mm · gold 18K"
+    "kind": "карманные часы, открыты",
+    "note": "Корпус-хантер с расписанной вручную эмалевой сценой под крышкой.",
+    "spec": "Ручной завод · 48 мм · золото 750"
    }
   },
   {
    "id": "mhh-1633",
    "handle": "mhh-1633-observatory-deck-chronometer",
-   "title": "Observatory Deck Chronometer",
-   "description": "Gimballed deck chronometer with its issue plaque and rating sheet.",
+   "title": "Обсерваторный палубный хронометр",
+   "description": "Палубный хронометр на кардановом подвесе с табличкой и листом испытаний.",
    "vendor": "Albrecht Werkstatt",
    "images": [
     {
      "src": "/products/mhh-1633.jpg",
-     "alt": "Observatory Deck Chronometer — deck chronometer"
+     "alt": "Обсерваторный палубный хронометр — палубный хронометр"
     }
    ],
    "price": {
@@ -717,7 +717,7 @@
    "variants": [
     {
      "id": "mhh-1633v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 67000,
       "currency": "USD"
@@ -726,36 +726,36 @@
     }
    ],
    "tags": [
-    "Brass",
-    "Art Deco 1930s",
-    "Glashütte"
+    "Латунь",
+    "Ар-деко, 1930-е",
+    "Гласхютте"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-1633",
-    "material": "Brass",
-    "epoch": "Art Deco 1930s",
-    "origin": "Glashütte",
+    "material": "Латунь",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Гласхютте",
     "rating": 4.6,
     "stock": true,
     "bespoke": false,
-    "kind": "deck chronometer",
-    "note": "Gimballed deck chronometer with its issue plaque and rating sheet.",
-    "spec": "56 h reserve · mahogany box"
+    "kind": "палубный хронометр",
+    "note": "Палубный хронометр на кардановом подвесе с табличкой и листом испытаний.",
+    "spec": "Запас хода 56 ч · ящик из красного дерева"
    }
   },
   {
    "id": "mhh-1888",
    "handle": "mhh-1888-founders-grande-sonnerie",
-   "title": "Founders Grande Sonnerie",
-   "description": "Grande et petite sonnerie from the founding bench, fully documented.",
+   "title": "Большой бой основателей",
+   "description": "Большой и малый бой с первого верстака мастерской, полностью задокументированы.",
    "vendor": "Reverchon & Fils",
    "images": [
     {
      "src": "/products/mhh-1888.jpg",
-     "alt": "Founders Grande Sonnerie — watch, caseback"
+     "alt": "Большой бой основателей — часы, задняя крышка"
     }
    ],
    "price": {
@@ -765,7 +765,7 @@
    "variants": [
     {
      "id": "mhh-1888v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 1180000,
       "currency": "USD"
@@ -774,36 +774,36 @@
     }
    ],
    "tags": [
-    "Gold 18K",
-    "Belle Époque",
-    "Geneva"
+    "Золото 750",
+    "Прекрасная эпоха",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-1888",
-    "material": "Gold 18K",
-    "epoch": "Belle Époque",
-    "origin": "Geneva",
+    "material": "Золото 750",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Женева",
     "rating": 5.0,
     "stock": false,
     "bespoke": true,
-    "kind": "watch, caseback",
-    "note": "Grande et petite sonnerie from the founding bench, fully documented.",
-    "spec": "Calibre 1888 GS · 43 mm · gold 18K"
+    "kind": "часы, задняя крышка",
+    "note": "Большой и малый бой с первого верстака мастерской, полностью задокументированы.",
+    "spec": "Калибр 1888 GS · 43 мм · золото 750"
    }
   },
   {
    "id": "mhh-0740",
    "handle": "mhh-0740-guilloch-dress-watch",
-   "title": "Guilloché Dress Watch",
-   "description": "Hand-turned guilloché centre under a boxed crystal, time-only.",
+   "title": "Классические часы с гильоше",
+   "description": "Гильоше, нанесённое вручную, под выпуклым стеклом; только время.",
    "vendor": "Duret & Frères",
    "images": [
     {
      "src": "/products/mhh-0740.jpg",
-     "alt": "Guilloché Dress Watch — watch, flat lay"
+     "alt": "Классические часы с гильоше — часы, раскладка"
     }
    ],
    "price": {
@@ -813,7 +813,7 @@
    "variants": [
     {
      "id": "mhh-0740v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 42000,
       "currency": "USD"
@@ -822,36 +822,36 @@
     }
    ],
    "tags": [
-    "Steel",
-    "Art Deco 1930s",
-    "Geneva"
+    "Сталь",
+    "Ар-деко, 1930-е",
+    "Женева"
    ],
    "collectionHandles": [
     "horlogerie"
    ],
    "meta": {
     "ref": "MHH-0740",
-    "material": "Steel",
-    "epoch": "Art Deco 1930s",
-    "origin": "Geneva",
+    "material": "Сталь",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Женева",
     "rating": 4.4,
     "stock": true,
     "bespoke": false,
-    "kind": "watch, flat lay",
-    "note": "Hand-turned guilloché centre under a boxed crystal, time-only.",
-    "spec": "Calibre 1003 · 36 mm · steel"
+    "kind": "часы, раскладка",
+    "note": "Гильоше, нанесённое вручную, под выпуклым стеклом; только время.",
+    "spec": "Калибр 1003 · 36 мм · сталь"
    }
   },
   {
    "id": "ks-2210",
    "handle": "ks-2210-double-breasted-super-160s-suit",
-   "title": "Double-breasted Super 160s Suit",
-   "description": "Floating canvas of horsehair, three fittings before finishing.",
+   "title": "Двубортный костюм Super 160s",
+   "description": "Плавающий холст из конского волоса, три примерки до готовности.",
    "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-2210.jpg",
-     "alt": "Double-breasted Super 160s Suit — suit on stand"
+     "alt": "Двубортный костюм Super 160s — костюм на манекене"
     }
    ],
    "price": {
@@ -861,7 +861,7 @@
    "variants": [
     {
      "id": "ks-2210v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 12800,
       "currency": "USD"
@@ -870,36 +870,36 @@
     }
    ],
    "tags": [
-    "Merino Super 160s",
-    "Art Deco 1930s",
-    "Savile Row"
+    "Меринос Super 160s",
+    "Ар-деко, 1930-е",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-2210",
-    "material": "Merino Super 160s",
-    "epoch": "Art Deco 1930s",
-    "origin": "Savile Row",
+    "material": "Меринос Super 160s",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Сэвил-Роу",
     "rating": 4.9,
     "stock": false,
     "bespoke": true,
-    "kind": "suit on stand",
-    "note": "Floating canvas of horsehair, three fittings before finishing.",
-    "spec": "6×2 · 4 fittings · 12 weeks"
+    "kind": "костюм на манекене",
+    "note": "Плавающий холст из конского волоса, три примерки до готовности.",
+    "spec": "6×2 · 4 примерки · 12 недель"
    }
   },
   {
    "id": "ks-1904",
    "handle": "ks-1904-cashmere-ulster-coat",
-   "title": "Cashmere Ulster Coat",
-   "description": "Double-breasted ulster with a shawl collar in double-faced cashmere.",
+   "title": "Кашемировое пальто-ольстер",
+   "description": "Двубортный ольстер с шалевым воротником из двустороннего кашемира.",
    "vendor": "Sterling Outerwear",
    "images": [
     {
      "src": "/products/ks-1904.jpg",
-     "alt": "Cashmere Ulster Coat — coat, full length"
+     "alt": "Кашемировое пальто-ольстер — пальто в полный рост"
     }
    ],
    "price": {
@@ -909,7 +909,7 @@
    "variants": [
     {
      "id": "ks-1904v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 9400,
       "currency": "USD"
@@ -918,36 +918,36 @@
     }
    ],
    "tags": [
-    "Cashmere",
-    "Victorian 1890s",
-    "Savile Row"
+    "Кашемир",
+    "Викторианская, 1890-е",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-1904",
-    "material": "Cashmere",
-    "epoch": "Victorian 1890s",
-    "origin": "Savile Row",
+    "material": "Кашемир",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Сэвил-Роу",
     "rating": 4.8,
     "stock": true,
     "bespoke": false,
-    "kind": "coat, full length",
-    "note": "Double-breasted ulster with a shawl collar in double-faced cashmere.",
-    "spec": "Cashmere 780 g · cupro lining"
+    "kind": "пальто в полный рост",
+    "note": "Двубортный ольстер с шалевым воротником из двустороннего кашемира.",
+    "spec": "Кашемир 780 г · подкладка купро"
    }
   },
   {
    "id": "ks-3080",
    "handle": "ks-3080-goodyear-welted-oxfords",
-   "title": "Goodyear-welted Oxfords",
-   "description": "Wholecut upper, Goodyear welt, double oak-bark sole.",
+   "title": "Оксфорды гудиер",
+   "description": "Цельнокроеный верх, рант гудиер, двойная подошва дубового дубления.",
    "vendor": "Thorne & Cobb",
    "images": [
     {
      "src": "/products/ks-3080.jpg",
-     "alt": "Goodyear-welted Oxfords — pair of shoes"
+     "alt": "Оксфорды гудиер — пара обуви"
     }
    ],
    "price": {
@@ -957,7 +957,7 @@
    "variants": [
     {
      "id": "ks-3080v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 2150,
       "currency": "USD"
@@ -966,36 +966,36 @@
     }
    ],
    "tags": [
-    "Calf leather",
-    "Victorian 1890s",
-    "Oxford"
+    "Телячья кожа",
+    "Викторианская, 1890-е",
+    "Оксфорд"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-3080",
-    "material": "Calf leather",
-    "epoch": "Victorian 1890s",
-    "origin": "Oxford",
+    "material": "Телячья кожа",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Оксфорд",
     "rating": 4.7,
     "stock": true,
     "bespoke": false,
-    "kind": "pair of shoes",
-    "note": "Wholecut upper, Goodyear welt, double oak-bark sole.",
-    "spec": "Last 202 · 8 weeks"
+    "kind": "пара обуви",
+    "note": "Цельнокроеный верх, рант гудиер, двойная подошва дубового дубления.",
+    "spec": "Колодка 202 · 8 недель"
    }
   },
   {
    "id": "ks-2455",
    "handle": "ks-2455-seven-fold-tie",
-   "title": "Seven-fold Tie",
-   "description": "Unlined seven-fold construction, hand-slipped, Como silk.",
+   "title": "Галстук в семь сложений",
+   "description": "Без подкладки, семь сложений, ручная сборка, шёлк из Комо.",
    "vendor": "Sterling Neckwear",
    "images": [
     {
      "src": "/products/ks-2455.jpg",
-     "alt": "Seven-fold Tie — tie, knot detail"
+     "alt": "Галстук в семь сложений — галстук, узел"
     }
    ],
    "price": {
@@ -1005,7 +1005,7 @@
    "variants": [
     {
      "id": "ks-2455v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 420,
       "currency": "USD"
@@ -1014,36 +1014,36 @@
     }
    ],
    "tags": [
-    "Silk",
-    "Belle Époque",
-    "Florence"
+    "Шёлк",
+    "Прекрасная эпоха",
+    "Флоренция"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-2455",
-    "material": "Silk",
-    "epoch": "Belle Époque",
-    "origin": "Florence",
+    "material": "Шёлк",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Флоренция",
     "rating": 4.6,
     "stock": true,
     "bespoke": false,
-    "kind": "tie, knot detail",
-    "note": "Unlined seven-fold construction, hand-slipped, Como silk.",
-    "spec": "8.5 cm · 148 cm"
+    "kind": "галстук, узел",
+    "note": "Без подкладки, семь сложений, ручная сборка, шёлк из Комо.",
+    "spec": "8,5 см · 148 см"
    }
   },
   {
    "id": "ks-2712",
    "handle": "ks-2712-shawl-collar-dinner-jacket",
-   "title": "Shawl-collar Dinner Jacket",
-   "description": "Silk shawl collar with single-braided trousers.",
+   "title": "Смокинг с шалевым воротником",
+   "description": "Шёлковый шалевый воротник и брюки с одинарным лампасом.",
    "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-2712.jpg",
-     "alt": "Shawl-collar Dinner Jacket — dinner jacket on stand"
+     "alt": "Смокинг с шалевым воротником — смокинг на манекене"
     }
    ],
    "price": {
@@ -1053,7 +1053,7 @@
    "variants": [
     {
      "id": "ks-2712v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 14600,
       "currency": "USD"
@@ -1062,36 +1062,36 @@
     }
    ],
    "tags": [
-    "Mohair",
-    "Art Deco 1930s",
-    "Savile Row"
+    "Мохер",
+    "Ар-деко, 1930-е",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-2712",
-    "material": "Mohair",
-    "epoch": "Art Deco 1930s",
-    "origin": "Savile Row",
+    "material": "Мохер",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Сэвил-Роу",
     "rating": 4.9,
     "stock": false,
     "bespoke": true,
-    "kind": "dinner jacket on stand",
-    "note": "Silk shawl collar with single-braided trousers.",
-    "spec": "1×1 · 4 fittings · 14 weeks"
+    "kind": "смокинг на манекене",
+    "note": "Шёлковый шалевый воротник и брюки с одинарным лампасом.",
+    "spec": "1×1 · 4 примерки · 14 недель"
    }
   },
   {
    "id": "ks-1188",
    "handle": "ks-1188-detachable-collar-shirt",
-   "title": "Detachable-collar Shirt",
-   "description": "Detachable collar, hand-worked buttonholes, 200/2 Sea Island cotton.",
+   "title": "Рубашка со съёмным воротником",
+   "description": "Съёмный воротник, петли ручной работы, хлопок Sea Island 200/2.",
    "vendor": "Sterling Shirtmakers",
    "images": [
     {
      "src": "/products/ks-1188.jpg",
-     "alt": "Detachable-collar Shirt — shirt, collar detail"
+     "alt": "Рубашка со съёмным воротником — рубашка, воротник"
     }
    ],
    "price": {
@@ -1101,7 +1101,7 @@
    "variants": [
     {
      "id": "ks-1188v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 680,
       "currency": "USD"
@@ -1110,36 +1110,36 @@
     }
    ],
    "tags": [
-    "Sea Island cotton",
-    "Victorian 1890s",
-    "Savile Row"
+    "Хлопок Sea Island",
+    "Викторианская, 1890-е",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-1188",
-    "material": "Sea Island cotton",
-    "epoch": "Victorian 1890s",
-    "origin": "Savile Row",
+    "material": "Хлопок Sea Island",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Сэвил-Роу",
     "rating": 4.5,
     "stock": true,
     "bespoke": false,
-    "kind": "shirt, collar detail",
-    "note": "Detachable collar, hand-worked buttonholes, 200/2 Sea Island cotton.",
-    "spec": "Hand-set shoulder · 6 weeks"
+    "kind": "рубашка, воротник",
+    "note": "Съёмный воротник, петли ручной работы, хлопок Sea Island 200/2.",
+    "spec": "Плечо вручную · 6 недель"
    }
   },
   {
    "id": "ks-3311",
    "handle": "ks-3311-norfolk-tweed-jacket",
-   "title": "Norfolk Tweed Jacket",
-   "description": "Box-pleated yoke and belt in handwoven tweed.",
+   "title": "Твидовый пиджак Норфолк",
+   "description": "Кокетка со складками и пояс из твида ручного ткачества.",
    "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-3311.jpg",
-     "alt": "Norfolk Tweed Jacket — jacket, full length"
+     "alt": "Твидовый пиджак Норфолк — пиджак в полный рост"
     }
    ],
    "price": {
@@ -1149,7 +1149,7 @@
    "variants": [
     {
      "id": "ks-3311v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 5900,
       "currency": "USD"
@@ -1158,36 +1158,36 @@
     }
    ],
    "tags": [
-    "Tweed",
-    "Victorian 1890s",
-    "Oxford"
+    "Твид",
+    "Викторианская, 1890-е",
+    "Оксфорд"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-3311",
-    "material": "Tweed",
-    "epoch": "Victorian 1890s",
-    "origin": "Oxford",
+    "material": "Твид",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Оксфорд",
     "rating": 4.4,
     "stock": true,
     "bespoke": false,
-    "kind": "jacket, full length",
-    "note": "Box-pleated yoke and belt in handwoven tweed.",
-    "spec": "Tweed 620 g · 10 weeks"
+    "kind": "пиджак в полный рост",
+    "note": "Кокетка со складками и пояс из твида ручного ткачества.",
+    "spec": "Твид 620 г · 10 недель"
    }
   },
   {
    "id": "ks-4001",
    "handle": "ks-4001-private-salon-tailcoat",
-   "title": "Private-salon Tailcoat",
-   "description": "Barathea with silk lapels, made to measure only.",
+   "title": "Фрак для частного салона",
+   "description": "Баратея с шёлковыми лацканами, только по меркам.",
    "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-4001.jpg",
-     "alt": "Private-salon Tailcoat — tailcoat on stand"
+     "alt": "Фрак для частного салона — фрак на манекене"
     }
    ],
    "price": {
@@ -1197,7 +1197,7 @@
    "variants": [
     {
      "id": "ks-4001v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 21400,
       "currency": "USD"
@@ -1206,36 +1206,36 @@
     }
    ],
    "tags": [
-    "Barathea wool",
-    "Belle Époque",
-    "Savile Row"
+    "Шерсть баратея",
+    "Прекрасная эпоха",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-4001",
-    "material": "Barathea wool",
-    "epoch": "Belle Époque",
-    "origin": "Savile Row",
+    "material": "Шерсть баратея",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Сэвил-Роу",
     "rating": 5.0,
     "stock": false,
     "bespoke": true,
-    "kind": "tailcoat on stand",
-    "note": "Barathea with silk lapels, made to measure only.",
-    "spec": "White tie · 5 fittings · 18 weeks"
+    "kind": "фрак на манекене",
+    "note": "Баратея с шёлковыми лацканами, только по меркам.",
+    "spec": "Белый галстук · 5 примерок · 18 недель"
    }
   },
   {
    "id": "ks-1750",
    "handle": "ks-1750-covert-coat-four-rows",
-   "title": "Covert Coat, Four Rows",
-   "description": "Fawn covert cloth with four rows of stitching at cuff and hem.",
+   "title": "Пальто коверт, четыре строчки",
+   "description": "Коверт песочного цвета с четырьмя строчками на манжетах и подоле.",
    "vendor": "Sterling Outerwear",
    "images": [
     {
      "src": "/products/ks-1750.jpg",
-     "alt": "Covert Coat, Four Rows — coat detail"
+     "alt": "Пальто коверт, четыре строчки — деталь пальто"
     }
    ],
    "price": {
@@ -1245,7 +1245,7 @@
    "variants": [
     {
      "id": "ks-1750v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 6800,
       "currency": "USD"
@@ -1254,36 +1254,36 @@
     }
    ],
    "tags": [
-    "Covert cloth",
-    "Belle Époque",
-    "Savile Row"
+    "Ткань коверт",
+    "Прекрасная эпоха",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-1750",
-    "material": "Covert cloth",
-    "epoch": "Belle Époque",
-    "origin": "Savile Row",
+    "material": "Ткань коверт",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Сэвил-Роу",
     "rating": 4.6,
     "stock": true,
     "bespoke": false,
-    "kind": "coat detail",
-    "note": "Fawn covert cloth with four rows of stitching at cuff and hem.",
-    "spec": "Covert 560 g · velvet collar"
+    "kind": "деталь пальто",
+    "note": "Коверт песочного цвета с четырьмя строчками на манжетах и подоле.",
+    "spec": "Коверт 560 г · бархатный воротник"
    }
   },
   {
    "id": "ks-2890",
    "handle": "ks-2890-cordovan-derby-boots",
-   "title": "Cordovan Derby Boots",
-   "description": "Shell cordovan derbies on a storm welt, brass speed hooks.",
+   "title": "Дерби из кордована",
+   "description": "Дерби из кордована на штормовом ранте, латунные крючки.",
    "vendor": "Thorne & Cobb",
    "images": [
     {
      "src": "/products/ks-2890.jpg",
-     "alt": "Cordovan Derby Boots — boots, profile"
+     "alt": "Дерби из кордована — ботинки, профиль"
     }
    ],
    "price": {
@@ -1293,7 +1293,7 @@
    "variants": [
     {
      "id": "ks-2890v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 3400,
       "currency": "USD"
@@ -1302,36 +1302,36 @@
     }
    ],
    "tags": [
-    "Shell cordovan",
-    "Art Deco 1930s",
-    "Oxford"
+    "Кордован",
+    "Ар-деко, 1930-е",
+    "Оксфорд"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-2890",
-    "material": "Shell cordovan",
-    "epoch": "Art Deco 1930s",
-    "origin": "Oxford",
+    "material": "Кордован",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Оксфорд",
     "rating": 4.7,
     "stock": true,
     "bespoke": false,
-    "kind": "boots, profile",
-    "note": "Shell cordovan derbies on a storm welt, brass speed hooks.",
-    "spec": "Last 88 · 12 weeks"
+    "kind": "ботинки, профиль",
+    "note": "Дерби из кордована на штормовом ранте, латунные крючки.",
+    "spec": "Колодка 88 · 12 недель"
    }
   },
   {
    "id": "ks-3520",
    "handle": "ks-3520-waxed-travel-cape",
-   "title": "Waxed Travel Cape",
-   "description": "Waxed cotton cape with a wool tartan lining and horn clasps.",
+   "title": "Вощёная дорожная накидка",
+   "description": "Накидка из вощёного хлопка на шерстяной подкладке в клетку, роговые застёжки.",
    "vendor": "Sterling Outerwear",
    "images": [
     {
      "src": "/products/ks-3520.jpg",
-     "alt": "Waxed Travel Cape — cape on hook"
+     "alt": "Вощёная дорожная накидка — накидка на крючке"
     }
    ],
    "price": {
@@ -1341,7 +1341,7 @@
    "variants": [
     {
      "id": "ks-3520v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 3900,
       "currency": "USD"
@@ -1350,36 +1350,36 @@
     }
    ],
    "tags": [
-    "Waxed cotton",
-    "Victorian 1890s",
-    "Oxford"
+    "Вощёный хлопок",
+    "Викторианская, 1890-е",
+    "Оксфорд"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-3520",
-    "material": "Waxed cotton",
-    "epoch": "Victorian 1890s",
-    "origin": "Oxford",
+    "material": "Вощёный хлопок",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Оксфорд",
     "rating": 4.5,
     "stock": true,
     "bespoke": false,
-    "kind": "cape on hook",
-    "note": "Waxed cotton cape with a wool tartan lining and horn clasps.",
-    "spec": "Waxed 10 oz · storm collar"
+    "kind": "накидка на крючке",
+    "note": "Накидка из вощёного хлопка на шерстяной подкладке в клетку, роговые застёжки.",
+    "spec": "Вощёный 10 oz · штормовой воротник"
    }
   },
   {
    "id": "ks-1099",
    "handle": "ks-1099-sea-island-dress-shirts-set-of-six",
-   "title": "Sea Island Dress Shirts, Set of Six",
-   "description": "Six shirts cut from one 200/2 Sea Island length for a named patron.",
+   "title": "Рубашки Sea Island, набор из шести",
+   "description": "Шесть рубашек из одного отреза Sea Island 200/2 для конкретного владельца.",
    "vendor": "Sterling Shirtmakers",
    "images": [
     {
      "src": "/products/ks-1099.jpg",
-     "alt": "Sea Island Dress Shirts, Set of Six — folded shirts"
+     "alt": "Рубашки Sea Island, набор из шести — сложенные рубашки"
     }
    ],
    "price": {
@@ -1389,7 +1389,7 @@
    "variants": [
     {
      "id": "ks-1099v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 3800,
       "currency": "USD"
@@ -1398,36 +1398,36 @@
     }
    ],
    "tags": [
-    "Sea Island cotton",
-    "Art Deco 1930s",
-    "Savile Row"
+    "Хлопок Sea Island",
+    "Ар-деко, 1930-е",
+    "Сэвил-Роу"
    ],
    "collectionHandles": [
     "kingsman"
    ],
    "meta": {
     "ref": "KS-1099",
-    "material": "Sea Island cotton",
-    "epoch": "Art Deco 1930s",
-    "origin": "Savile Row",
+    "material": "Хлопок Sea Island",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Сэвил-Роу",
     "rating": 4.8,
     "stock": false,
     "bespoke": true,
-    "kind": "folded shirts",
-    "note": "Six shirts cut from one 200/2 Sea Island length for a named patron.",
-    "spec": "Set of 6 · monogrammed"
+    "kind": "сложенные рубашки",
+    "note": "Шесть рубашек из одного отреза Sea Island 200/2 для конкретного владельца.",
+    "spec": "6 штук · с монограммой"
    }
   },
   {
    "id": "ab-1751",
    "handle": "ab-1751-encyclop-die-first-edition",
-   "title": "Encyclopédie, First Edition",
-   "description": "1751 volume in gilt-tooled morocco with the full suite of plates.",
+   "title": "«Энциклопедия», первое издание",
+   "description": "Том 1751 года в сафьяне с золотым тиснением и полным набором гравюр.",
    "vendor": "Maison Duclos",
    "images": [
     {
      "src": "/products/ab-1751.jpg",
-     "alt": "Encyclopédie, First Edition — book, spread"
+     "alt": "«Энциклопедия», первое издание — книга, разворот"
     }
    ],
    "price": {
@@ -1437,7 +1437,7 @@
    "variants": [
     {
      "id": "ab-1751v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 268000,
       "currency": "USD"
@@ -1446,36 +1446,36 @@
     }
    ],
    "tags": [
-    "Morocco leather",
-    "Enlightenment",
-    "Florence"
+    "Сафьян",
+    "Просвещение",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-1751",
-    "material": "Morocco leather",
-    "epoch": "Enlightenment",
-    "origin": "Florence",
+    "material": "Сафьян",
+    "epoch": "Просвещение",
+    "origin": "Флоренция",
     "rating": 5.0,
     "stock": false,
     "bespoke": false,
-    "kind": "book, spread",
-    "note": "1751 volume in gilt-tooled morocco with the full suite of plates.",
-    "spec": "Folio · morocco · provenance verified"
+    "kind": "книга, разворот",
+    "note": "Том 1751 года в сафьяне с золотым тиснением и полным набором гравюр.",
+    "spec": "Фолио · сафьян · происхождение подтверждено"
    }
   },
   {
    "id": "ab-0899",
    "handle": "ab-0899-brass-planispheric-astrolabe",
-   "title": "Brass Planispheric Astrolabe",
-   "description": "Planispheric astrolabe with engraved latitude tympans.",
+   "title": "Латунная планисферная астролябия",
+   "description": "Планисферная астролябия с гравированными широтными тимпанами.",
    "vendor": "Atelier Cassini",
    "images": [
     {
      "src": "/products/ab-0899.jpg",
-     "alt": "Brass Planispheric Astrolabe — astrolabe, frontal"
+     "alt": "Латунная планисферная астролябия — астролябия, анфас"
     }
    ],
    "price": {
@@ -1485,7 +1485,7 @@
    "variants": [
     {
      "id": "ab-0899v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 74000,
       "currency": "USD"
@@ -1494,36 +1494,36 @@
     }
    ],
    "tags": [
-    "Brass",
-    "Enlightenment",
-    "Florence"
+    "Латунь",
+    "Просвещение",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-0899",
-    "material": "Brass",
-    "epoch": "Enlightenment",
-    "origin": "Florence",
+    "material": "Латунь",
+    "epoch": "Просвещение",
+    "origin": "Флоренция",
     "rating": 4.8,
     "stock": true,
     "bespoke": false,
-    "kind": "astrolabe, frontal",
-    "note": "Planispheric astrolabe with engraved latitude tympans.",
-    "spec": "Brass · 240 mm · fitted case"
+    "kind": "астролябия, анфас",
+    "note": "Планисферная астролябия с гравированными широтными тимпанами.",
+    "spec": "Латунь · 240 мм · футляр по размеру"
    }
   },
   {
    "id": "ab-1420",
    "handle": "ab-1420-fountain-pen-14k-nib",
-   "title": "Fountain Pen, 14K Nib",
-   "description": "Ebonite barrel with a 14K nib tuned to the patron's writing angle.",
+   "title": "Перьевая ручка, перо 585",
+   "description": "Корпус из эбонита и золотое перо, настроенное под угол письма владельца.",
    "vendor": "Plume & Cire",
    "images": [
     {
      "src": "/products/ab-1420.jpg",
-     "alt": "Fountain Pen, 14K Nib — pen, nib macro"
+     "alt": "Перьевая ручка, перо 585 — перо, макро"
     }
    ],
    "price": {
@@ -1533,7 +1533,7 @@
    "variants": [
     {
      "id": "ab-1420v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 3800,
       "currency": "USD"
@@ -1542,36 +1542,36 @@
     }
    ],
    "tags": [
-    "Gold 14K",
-    "Art Deco 1930s",
-    "Florence"
+    "Золото 585",
+    "Ар-деко, 1930-е",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-1420",
-    "material": "Gold 14K",
-    "epoch": "Art Deco 1930s",
-    "origin": "Florence",
+    "material": "Золото 585",
+    "epoch": "Ар-деко, 1930-е",
+    "origin": "Флоренция",
     "rating": 4.6,
     "stock": true,
     "bespoke": false,
-    "kind": "pen, nib macro",
-    "note": "Ebonite barrel with a 14K nib tuned to the patron's writing angle.",
-    "spec": "Piston filler · medium nib"
+    "kind": "перо, макро",
+    "note": "Корпус из эбонита и золотое перо, настроенное под угол письма владельца.",
+    "spec": "Поршневая заправка · перо M"
    }
   },
   {
    "id": "ab-2010",
    "handle": "ab-2010-russia-leather-portfolio",
-   "title": "Russia-leather Portfolio",
-   "description": "Birch-tanned Russia leather, saddle-stitched by hand.",
+   "title": "Портфель из юфти",
+   "description": "Юфть берёзового дубления, сшитая вручную седельным швом.",
    "vendor": "Maison Duclos",
    "images": [
     {
      "src": "/products/ab-2010.jpg",
-     "alt": "Russia-leather Portfolio — portfolio"
+     "alt": "Портфель из юфти — портфель"
     }
    ],
    "price": {
@@ -1581,7 +1581,7 @@
    "variants": [
     {
      "id": "ab-2010v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 6400,
       "currency": "USD"
@@ -1590,36 +1590,36 @@
     }
    ],
    "tags": [
-    "Russia leather",
-    "Victorian 1890s",
-    "Florence"
+    "Юфть",
+    "Викторианская, 1890-е",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-2010",
-    "material": "Russia leather",
-    "epoch": "Victorian 1890s",
-    "origin": "Florence",
+    "material": "Юфть",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Флоренция",
     "rating": 4.7,
     "stock": true,
     "bespoke": false,
-    "kind": "portfolio",
-    "note": "Birch-tanned Russia leather, saddle-stitched by hand.",
-    "spec": "Russia leather · brass fittings"
+    "kind": "портфель",
+    "note": "Юфть берёзового дубления, сшитая вручную седельным швом.",
+    "spec": "Юфть · латунная фурнитура"
    }
   },
   {
    "id": "ab-1666",
    "handle": "ab-1666-celestial-globe-on-tripod",
-   "title": "Celestial Globe on Tripod",
-   "description": "Constellations engraved after Hevelius, with a brass meridian ring.",
+   "title": "Небесный глобус на треноге",
+   "description": "Созвездия гравированы по Гевелию, латунное меридианное кольцо.",
    "vendor": "Atelier Cassini",
    "images": [
     {
      "src": "/products/ab-1666.jpg",
-     "alt": "Celestial Globe on Tripod — globe"
+     "alt": "Небесный глобус на треноге — глобус"
     }
    ],
    "price": {
@@ -1629,7 +1629,7 @@
    "variants": [
     {
      "id": "ab-1666v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 118000,
       "currency": "USD"
@@ -1638,36 +1638,36 @@
     }
    ],
    "tags": [
-    "Brass",
-    "Enlightenment",
-    "Florence"
+    "Латунь",
+    "Просвещение",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-1666",
-    "material": "Brass",
-    "epoch": "Enlightenment",
-    "origin": "Florence",
+    "material": "Латунь",
+    "epoch": "Просвещение",
+    "origin": "Флоренция",
     "rating": 4.9,
     "stock": false,
     "bespoke": false,
-    "kind": "globe",
-    "note": "Constellations engraved after Hevelius, with a brass meridian ring.",
-    "spec": "Ø 320 mm · walnut and brass"
+    "kind": "глобус",
+    "note": "Созвездия гравированы по Гевелию, латунное меридианное кольцо.",
+    "spec": "Ø 320 мм · орех и латунь"
    }
   },
   {
    "id": "ab-1234",
    "handle": "ab-1234-desk-blotter",
-   "title": "Desk Blotter",
-   "description": "Morocco with a gilt rule and a replaceable blotting insert.",
+   "title": "Настольный бювар",
+   "description": "Сафьян с золотой линией и сменным вкладышем.",
    "vendor": "Plume & Cire",
    "images": [
     {
      "src": "/products/ab-1234.jpg",
-     "alt": "Desk Blotter — blotter on desk"
+     "alt": "Настольный бювар — бювар на столе"
     }
    ],
    "price": {
@@ -1677,7 +1677,7 @@
    "variants": [
     {
      "id": "ab-1234v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 2400,
       "currency": "USD"
@@ -1686,36 +1686,36 @@
     }
    ],
    "tags": [
-    "Morocco leather",
-    "Belle Époque",
-    "Florence"
+    "Сафьян",
+    "Прекрасная эпоха",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-1234",
-    "material": "Morocco leather",
-    "epoch": "Belle Époque",
-    "origin": "Florence",
+    "material": "Сафьян",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Флоренция",
     "rating": 4.4,
     "stock": true,
     "bespoke": false,
-    "kind": "blotter on desk",
-    "note": "Morocco with a gilt rule and a replaceable blotting insert.",
-    "spec": "560×400 mm · morocco"
+    "kind": "бювар на столе",
+    "note": "Сафьян с золотой линией и сменным вкладышем.",
+    "spec": "560×400 мм · сафьян"
    }
   },
   {
    "id": "ab-3070",
    "handle": "ab-3070-armorial-bespoke-binding",
-   "title": "Armorial Bespoke Binding",
-   "description": "Hand binding with the patron's arms tooled in six passes.",
+   "title": "Гербовый переплёт на заказ",
+   "description": "Ручной переплёт с гербом владельца, тиснённым в шесть проходов.",
    "vendor": "Maison Duclos",
    "images": [
     {
      "src": "/products/ab-3070.jpg",
-     "alt": "Armorial Bespoke Binding — bindery"
+     "alt": "Гербовый переплёт на заказ — переплётная"
     }
    ],
    "price": {
@@ -1725,7 +1725,7 @@
    "variants": [
     {
      "id": "ab-3070v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 8900,
       "currency": "USD"
@@ -1734,36 +1734,36 @@
     }
    ],
    "tags": [
-    "Morocco leather",
-    "Enlightenment",
-    "Florence"
+    "Сафьян",
+    "Просвещение",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-3070",
-    "material": "Morocco leather",
-    "epoch": "Enlightenment",
-    "origin": "Florence",
+    "material": "Сафьян",
+    "epoch": "Просвещение",
+    "origin": "Флоренция",
     "rating": 4.8,
     "stock": false,
     "bespoke": true,
-    "kind": "bindery",
-    "note": "Hand binding with the patron's arms tooled in six passes.",
-    "spec": "Made to order · 16 weeks"
+    "kind": "переплётная",
+    "note": "Ручной переплёт с гербом владельца, тиснённым в шесть проходов.",
+    "spec": "Под заказ · 16 недель"
    }
   },
   {
    "id": "ab-0512",
    "handle": "ab-0512-sextant-in-walnut-case",
-   "title": "Sextant in Walnut Case",
-   "description": "Brass sextant with vernier scale and its original 1878 case.",
+   "title": "Секстант в ореховом футляре",
+   "description": "Латунный секстант с нониусом в оригинальном футляре 1878 года.",
    "vendor": "Atelier Cassini",
    "images": [
     {
      "src": "/products/ab-0512.jpg",
-     "alt": "Sextant in Walnut Case — sextant in case"
+     "alt": "Секстант в ореховом футляре — секстант в футляре"
     }
    ],
    "price": {
@@ -1773,7 +1773,7 @@
    "variants": [
     {
      "id": "ab-0512v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 46000,
       "currency": "USD"
@@ -1782,36 +1782,36 @@
     }
    ],
    "tags": [
-    "Brass",
-    "Victorian 1890s",
-    "Florence"
+    "Латунь",
+    "Викторианская, 1890-е",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-0512",
-    "material": "Brass",
-    "epoch": "Victorian 1890s",
-    "origin": "Florence",
+    "material": "Латунь",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Флоренция",
     "rating": 4.5,
     "stock": true,
     "bespoke": false,
-    "kind": "sextant in case",
-    "note": "Brass sextant with vernier scale and its original 1878 case.",
-    "spec": "Brass · 10″ vernier"
+    "kind": "секстант в футляре",
+    "note": "Латунный секстант с нониусом в оригинальном футляре 1878 года.",
+    "spec": "Латунь · нониус 10″"
    }
   },
   {
    "id": "ab-0784",
    "handle": "ab-0784-hand-coloured-celestial-atlas",
-   "title": "Hand-coloured Celestial Atlas",
-   "description": "Twenty-eight double-page charts, hand-coloured at the press.",
+   "title": "Раскрашенный вручную небесный атлас",
+   "description": "Двадцать восемь разворотных карт, раскрашенных вручную при печати.",
    "vendor": "Maison Duclos",
    "images": [
     {
      "src": "/products/ab-0784.jpg",
-     "alt": "Hand-coloured Celestial Atlas — atlas, open plate"
+     "alt": "Раскрашенный вручную небесный атлас — атлас, разворот"
     }
    ],
    "price": {
@@ -1821,7 +1821,7 @@
    "variants": [
     {
      "id": "ab-0784v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 94000,
       "currency": "USD"
@@ -1830,36 +1830,36 @@
     }
    ],
    "tags": [
-    "Morocco leather",
-    "Enlightenment",
-    "Florence"
+    "Сафьян",
+    "Просвещение",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-0784",
-    "material": "Morocco leather",
-    "epoch": "Enlightenment",
-    "origin": "Florence",
+    "material": "Сафьян",
+    "epoch": "Просвещение",
+    "origin": "Флоренция",
     "rating": 4.9,
     "stock": true,
     "bespoke": false,
-    "kind": "atlas, open plate",
-    "note": "Twenty-eight double-page charts, hand-coloured at the press.",
-    "spec": "Elephant folio · 28 plates"
+    "kind": "атлас, разворот",
+    "note": "Двадцать восемь разворотных карт, раскрашенных вручную при печати.",
+    "spec": "Большое фолио · 28 листов"
    }
   },
   {
    "id": "ab-1580",
    "handle": "ab-1580-travelling-writing-slope",
-   "title": "Travelling Writing Slope",
-   "description": "Rosewood slope with secret drawers and its original inkwells.",
+   "title": "Дорожный письменный прибор",
+   "description": "Прибор из палисандра с потайными ящиками и оригинальными чернильницами.",
    "vendor": "Plume & Cire",
    "images": [
     {
      "src": "/products/ab-1580.jpg",
-     "alt": "Travelling Writing Slope — writing slope"
+     "alt": "Дорожный письменный прибор — письменный прибор"
     }
    ],
    "price": {
@@ -1869,7 +1869,7 @@
    "variants": [
     {
      "id": "ab-1580v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 5200,
       "currency": "USD"
@@ -1878,36 +1878,36 @@
     }
    ],
    "tags": [
-    "Rosewood",
-    "Victorian 1890s",
-    "Florence"
+    "Палисандр",
+    "Викторианская, 1890-е",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-1580",
-    "material": "Rosewood",
-    "epoch": "Victorian 1890s",
-    "origin": "Florence",
+    "material": "Палисандр",
+    "epoch": "Викторианская, 1890-е",
+    "origin": "Флоренция",
     "rating": 4.5,
     "stock": true,
     "bespoke": false,
-    "kind": "writing slope",
-    "note": "Rosewood slope with secret drawers and its original inkwells.",
-    "spec": "Rosewood · brass banding"
+    "kind": "письменный прибор",
+    "note": "Прибор из палисандра с потайными ящиками и оригинальными чернильницами.",
+    "spec": "Палисандр · латунная окантовка"
    }
   },
   {
    "id": "ab-2444",
    "handle": "ab-2444-wax-seal-cabinet",
-   "title": "Wax Seal Cabinet",
-   "description": "Forty engraved matrices in a velvet-lined collector's cabinet.",
+   "title": "Шкатулка с сургучными печатями",
+   "description": "Сорок гравированных матриц в коллекционной шкатулке с бархатом.",
    "vendor": "Plume & Cire",
    "images": [
     {
      "src": "/products/ab-2444.jpg",
-     "alt": "Wax Seal Cabinet — seals in tray"
+     "alt": "Шкатулка с сургучными печатями — печати в лотке"
     }
    ],
    "price": {
@@ -1917,7 +1917,7 @@
    "variants": [
     {
      "id": "ab-2444v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 3100,
       "currency": "USD"
@@ -1926,36 +1926,36 @@
     }
    ],
    "tags": [
-    "Brass",
-    "Belle Époque",
-    "Florence"
+    "Латунь",
+    "Прекрасная эпоха",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-2444",
-    "material": "Brass",
-    "epoch": "Belle Époque",
-    "origin": "Florence",
+    "material": "Латунь",
+    "epoch": "Прекрасная эпоха",
+    "origin": "Флоренция",
     "rating": 4.4,
     "stock": true,
     "bespoke": false,
-    "kind": "seals in tray",
-    "note": "Forty engraved matrices in a velvet-lined collector's cabinet.",
-    "spec": "40 matrices · walnut case"
+    "kind": "печати в лотке",
+    "note": "Сорок гравированных матриц в коллекционной шкатулке с бархатом.",
+    "spec": "40 матриц · ореховый ящик"
    }
   },
   {
    "id": "ab-0068",
    "handle": "ab-0068-galileo-letters-bound-manuscript",
-   "title": "Galileo Letters, Bound Manuscript",
-   "description": "Bound correspondence with a documented chain of custody since 1802.",
+   "title": "Письма Галилея, рукопись в переплёте",
+   "description": "Переплетённая переписка с задокументированной историей владения с 1802 года.",
    "vendor": "Maison Duclos",
    "images": [
     {
      "src": "/products/ab-0068.jpg",
-     "alt": "Galileo Letters, Bound Manuscript — manuscript"
+     "alt": "Письма Галилея, рукопись в переплёте — рукопись"
     }
    ],
    "price": {
@@ -1965,7 +1965,7 @@
    "variants": [
     {
      "id": "ab-0068v1",
-     "title": "Unique piece",
+     "title": "Единственный экземпляр",
      "price": {
       "amount": 412000,
       "currency": "USD"
@@ -1974,24 +1974,24 @@
     }
    ],
    "tags": [
-    "Vellum",
-    "Enlightenment",
-    "Florence"
+    "Пергамент",
+    "Просвещение",
+    "Флоренция"
    ],
    "collectionHandles": [
     "bibliophiles"
    ],
    "meta": {
     "ref": "AB-0068",
-    "material": "Vellum",
-    "epoch": "Enlightenment",
-    "origin": "Florence",
+    "material": "Пергамент",
+    "epoch": "Просвещение",
+    "origin": "Флоренция",
     "rating": 5.0,
     "stock": false,
     "bespoke": true,
-    "kind": "manuscript",
-    "note": "Bound correspondence with a documented chain of custody since 1802.",
-    "spec": "Vellum · scholar's provenance"
+    "kind": "рукопись",
+    "note": "Переплетённая переписка с задокументированной историей владения с 1802 года.",
+    "spec": "Пергамент · научное происхождение"
    }
   }
  ]

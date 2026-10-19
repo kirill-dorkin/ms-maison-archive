@@ -5,22 +5,22 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Patron cabinet — Maison" description="Orders on register, activity log, residences and preferences.">
+<Layout title="Кабинет покупателя — Maison" description="Заказы, журнал, адреса и настройки покупателя.">
   <main class="mx-auto max-w-[1240px] px-2 sm:px-6">
 
     <div data-guest class="hidden py-24 text-center [&.show]:block">
-      <div class="eti mb-4 text-acc" style="letter-spacing:0.18em">Patron cabinet</div>
-      <h1 class="font-sf m-0 mb-5 text-[clamp(26px,4vw,40px)]">The cabinet opens for patrons</h1>
-      <p class="mx-auto mb-7 max-w-[46ch] text-[14.5px] leading-[1.7] text-soft">Sign in with your registered address, or enter as one of the house's existing patrons to view the ledger.</p>
-      <button data-guest-auth class="btn-keeper px-6 py-3.5">Patron sign-in</button>
+      <div class="eti mb-4 text-acc" style="letter-spacing:0.18em">Кабинет покупателя</div>
+      <h1 class="font-sf m-0 mb-5 text-[clamp(26px,4vw,40px)]">Кабинет открыт для покупателей</h1>
+      <p class="mx-auto mb-7 max-w-[46ch] text-[14.5px] leading-[1.7] text-soft">Войдите по своему адресу или как один из демо-покупателей, чтобы увидеть журнал.</p>
+      <button data-guest-auth class="btn-keeper px-6 py-3.5">Войти</button>
     </div>
 
     <div data-cabinet class="hidden [&.show]:block">
       <section class="flex flex-wrap items-end gap-x-10 gap-y-3 border-b border-line pb-4 pt-6 sm:gap-y-6 sm:pb-[30px] sm:pt-14">
         <div class="min-w-0 flex-[1_1_320px]">
           <div class="mb-2 flex items-baseline justify-between gap-4 sm:mb-[18px]">
-            <span class="eti text-acc" style="letter-spacing:0.18em">Patron cabinet</span>
-            <button data-sign-out class="eti cursor-pointer text-faint transition hover:text-acc" style="font-size:11px">Sign out</button>
+            <span class="eti text-acc" style="letter-spacing:0.18em">Кабинет покупателя</span>
+            <button data-sign-out class="eti cursor-pointer text-faint transition hover:text-acc" style="font-size:11px">Выйти</button>
           </div>
           <h1 data-p-name class="font-sf m-0 mb-3.5 text-[clamp(28px,4vw,42px)] leading-[1.1]"></h1>
           <div data-p-line class="hidden font-mono text-[11.5px] tracking-[0.04em] text-soft sm:block"></div>
@@ -30,9 +30,9 @@ import Layout from '../layouts/Layout.astro';
       <section data-p-stats class="grid grid-cols-2 gap-x-4 border-b border-line sm:grid-cols-[repeat(auto-fit,minmax(150px,1fr))]"></section>
 
       <div class="eti flex flex-wrap items-center gap-x-[26px] gap-y-3.5 pt-[18px]" style="font-size:11px">
-        <button data-cab-tab="overview" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Overview</button>
-        <button data-cab-tab="orders" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Orders & log</button>
-        <button data-cab-tab="settings" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Settings</button>
+        <button data-cab-tab="overview" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Обзор</button>
+        <button data-cab-tab="orders" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Заказы и журнал</button>
+        <button data-cab-tab="settings" class="cursor-pointer text-soft transition hover:text-acc [&.on]:text-acc [&.on]:border-b [&.on]:border-acc [&.on]:pb-[3px]">Настройки</button>
       </div>
 
       <div class="flex flex-wrap items-start gap-x-14 gap-y-8 pt-5 sm:gap-y-11 sm:pt-[34px]" data-cab-body></div>
@@ -43,50 +43,50 @@ import Layout from '../layouts/Layout.astro';
     import { patron, vault, currency, packaging, notify, CURRENCIES, fmtMoney, type Currency } from '../lib/stores';
 
     const $ = <T extends HTMLElement = HTMLElement>(s: string) => document.querySelector<T>(s)!;
-    const STEPS = ['Preparation', 'Hand-crafting', 'Inspection', 'Dispatched'];
+    const STEPS = ['Подготовка', 'Ручная работа', 'Проверка', 'Отправлено'];
     let tab = 'overview';
 
     // demo ledger per patron id — new registrations get the starter ledger
     const LEDGERS: Record<string, any> = {
       p1: {
-        perks: ['Diplomatic armoured delivery', 'Private salon access in Geneva and London'],
-        stats: [['1,284,000', 'Total acquisition value', 1284000], ['37', 'Orders on register'], ['3', 'In atelier / transit'], ['14,600', 'Reward credits'], ['21', 'Held in private vault']],
+        perks: ['Доставка бронированным транспортом', 'Доступ в частные салоны Женевы и Лондона'],
+        stats: [['1,284,000', 'Сумма приобретений', 1284000], ['37', 'Заказов в реестре'], ['3', 'В работе / в пути'], ['14,600', 'Бонусы'], ['21', 'В личном хранилище']],
         orders: [
-          { code: 'ORD-24-0917', item: 'Grand Feu Perpetual Calendar · MHH-0872', usd: 312000, stage: 2, tracking: 'Tracking BRV-88214' },
-          { code: 'ORD-24-0864', item: 'Double-breasted Super 160s Suit · KS-2210', usd: 12800, stage: 4, tracking: 'Tracking BRV-87109' },
+          { code: 'ORD-24-0917', item: 'Вечный календарь Grand Feu · MHH-0872', usd: 312000, stage: 2, tracking: 'Трек BRV-88214' },
+          { code: 'ORD-24-0864', item: 'Двубортный костюм Super 160s · KS-2210', usd: 12800, stage: 4, tracking: 'Трек BRV-87109' },
         ],
         log: [
-          ['12 May', 'Consultation with the tourbillon master in Geneva; minutes filed to the archive.'],
-          ['28 Apr', 'Certificate of authenticity issued for pocket chronometer MHH-0455.'],
-          ['04 Mar', 'Guild rank raised to Grand Collector VIP.'],
+          ['12 мая', 'Консультация у мастера турбийонов в Женеве; протокол передан в архив.'],
+          ['28 апр', 'Выдан сертификат подлинности на карманный хронометр MHH-0455.'],
+          ['04 мар', 'Статус повышен до «Большой коллекционер».'],
         ],
         addresses: [
-          ['Principal residence', '21 Quai des Bergues, Genève · received by appointment with the keeper'],
-          ['Country residence', 'Château de Villeneuve, Valais · armoured transport only'],
+          ['Основной адрес', 'Женева · приём по записи у хранителя (адрес вымышлен)'],
+          ['Загородный дом', 'Вале, Швейцария · только бронированная доставка'],
         ],
       },
       p2: {
-        perks: ['Priority fitting calendar', "Storage in the atelier's private safe"],
-        stats: [['486,000', 'Total acquisition value', 486000], ['14', 'Orders on register'], ['1', 'In atelier / transit'], ['5,200', 'Reward credits'], ['9', 'Held in private vault']],
+        perks: ['Приоритетная запись на примерки', 'Хранение в сейфе ателье'],
+        stats: [['486,000', 'Сумма приобретений', 486000], ['14', 'Заказов в реестре'], ['1', 'В работе / в пути'], ['5,200', 'Бонусы'], ['9', 'В личном хранилище']],
         orders: [
-          { code: 'ORD-24-1042', item: 'Armorial Bespoke Binding · AB-3070', usd: 8900, stage: 1, tracking: 'Tracking BRV-90417' },
+          { code: 'ORD-24-1042', item: 'Гербовый переплёт на заказ · AB-3070', usd: 8900, stage: 1, tracking: 'Трек BRV-90417' },
         ],
         log: [
-          ['02 Jun', 'Third fitting for dinner jacket KS-2712 booked on Savile Row.'],
-          ['19 May', 'Condition report for lot AB-1751 received from the archive keeper.'],
+          ['02 июн', 'Третья примерка смокинга KS-2712 назначена на Сэвил-Роу.'],
+          ['19 мая', 'Получен отчёт о состоянии лота AB-1751 от хранителя архива.'],
         ],
         addresses: [
-          ['Principal residence', '4 Rue du Rhône, Genève'],
-          ['City apartment', '12 Wigmore Street, London · delivery during concierge hours'],
+          ['Основной адрес', 'Женева (адрес вымышлен)'],
+          ['Городская квартира', 'Лондон · доставка в часы работы консьержа'],
         ],
       },
     };
     const STARTER = {
-      perks: ['Seasonal catalogue by courier', 'Introduction to the archive keeper'],
-      stats: [['0', 'Total acquisition value', 0], ['0', 'Orders on register'], ['0', 'In atelier / transit'], ['100', 'Reward credits'], ['0', 'Held in private vault']],
+      perks: ['Сезонный каталог с курьером', 'Знакомство с хранителем архива'],
+      stats: [['0', 'Сумма приобретений', 0], ['0', 'Заказов в реестре'], ['0', 'В работе / в пути'], ['100', 'Бонусы'], ['0', 'В личном хранилище']],
       orders: [],
-      log: [['Today', 'Arms registered with the house; the keeper has opened a new ledger.']],
-      addresses: [['Principal residence', 'To be recorded at the first appointment']],
+      log: [['Сегодня', 'Вы зарегистрированы; хранитель открыл новый журнал.']],
+      addresses: [['Основной адрес', 'Запишем на первой встрече']],
     };
 
     const money = (usd: number) => fmtMoney(usd, currency.get() as Currency);
@@ -110,7 +110,7 @@ import Layout from '../layouts/Layout.astro';
       if (tab === 'orders') {
         body.innerHTML = `
           <section class="flex min-w-0 flex-[999_1_480px] flex-col gap-6">
-            <h2 class="font-sf m-0 text-[22px]">Orders</h2>
+            <h2 class="font-sf m-0 text-[22px]">Заказы</h2>
             ${led.orders.length ? led.orders.map((o: any) => `
               <article class="flex flex-col gap-[18px] border border-line bg-card p-[22px]">
                 <div class="flex flex-wrap items-baseline gap-x-4 gap-y-2">
@@ -129,10 +129,10 @@ import Layout from '../layouts/Layout.astro';
                 <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-[13px] text-soft">
                   <span>${o.tracking}</span>
                   <span class="flex-1"></span>
-                  <span class="cursor-pointer text-acc">Archive certificate</span>
+                  <span class="cursor-pointer text-acc">Сертификат архива</span>
                 </div>
-              </article>`).join('') : '<p class="m-0 text-[14px] leading-[1.7] text-muted">The register is empty this season. The keeper will record your first acquisition here.</p>'}
-            <h2 class="font-sf m-0 mt-[22px] text-[22px]">Activity log</h2>
+              </article>`).join('') : '<p class="m-0 text-[14px] leading-[1.7] text-muted">В этом сезоне реестр пуст. Здесь появится ваше первое приобретение.</p>'}
+            <h2 class="font-sf m-0 mt-[22px] text-[22px]">Журнал</h2>
             <div class="flex flex-col">
               ${led.log.map((l: string[]) => `
                 <div class="flex flex-wrap gap-x-[22px] gap-y-1.5 border-t border-line py-[15px]">
@@ -147,27 +147,27 @@ import Layout from '../layouts/Layout.astro';
         const nf = notify.get() === 'on';
         body.innerHTML = `
           <section class="flex min-w-0 max-w-[560px] flex-1 flex-col gap-3.5">
-            <h2 class="font-sf m-0 text-[20px]">Settings</h2>
+            <h2 class="font-sf m-0 text-[20px]">Настройки</h2>
             <div class="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line pt-3.5">
-              <span class="flex-1 text-[13.5px]">Currency</span>
+              <span class="flex-1 text-[13.5px]">Валюта</span>
               <div class="flex gap-3 font-mono text-[12px]">
                 ${Object.keys(CURRENCIES).map((k) => `
                   <button data-set-cur="${k}" class="cursor-pointer ${k === cur ? 'border-b border-acc text-acc' : 'text-faint'}">${k} ${(CURRENCIES as any)[k].sign}</button>`).join('')}
               </div>
             </div>
             <div class="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line pt-3.5">
-              <span class="flex-1 text-[13.5px]">Presentation case</span>
+              <span class="flex-1 text-[13.5px]">Футляр</span>
               <div class="flex gap-3 font-mono text-[12px]">
-                ${['Mahogany', 'Calf leather'].map((x) => `
+                ${['Красное дерево', 'Телячья кожа'].map((x) => `
                   <button data-set-pack="${x}" class="cursor-pointer ${x === pk ? 'border-b border-acc text-acc' : 'text-faint'}">${x}</button>`).join('')}
               </div>
             </div>
             <div class="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line pt-3.5">
-              <span class="flex-1 text-[13.5px]">Acquisition notices</span>
-              <button data-set-notify class="cursor-pointer border-b border-acc font-mono text-[12px] text-acc">${nf ? 'On' : 'Off'}</button>
+              <span class="flex-1 text-[13.5px]">Уведомления о покупках</span>
+              <button data-set-notify class="cursor-pointer border-b border-acc font-mono text-[12px] text-acc">${nf ? 'On' : 'Выкл.'}</button>
             </div>
             <div class="flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-line pt-3.5">
-              <span class="flex-1 text-[13.5px]">Saved pieces in the vault</span>
+              <span class="flex-1 text-[13.5px]">Сохранённые предметы</span>
               <span class="font-mono text-[12px] text-acc">${vault.get().length}</span>
             </div>
           </section>`;
@@ -175,18 +175,18 @@ import Layout from '../layouts/Layout.astro';
         body.innerHTML = `
           <aside class="flex min-w-0 flex-[1_1_320px] flex-col gap-9">
             <div class="flex flex-col gap-2.5 border border-line bg-card p-5">
-              <span class="eti text-faint" style="font-size:10px">Privileges</span>
+              <span class="eti text-faint" style="font-size:10px">Привилегии</span>
               ${led.perks.map((x: string) => `<span class="text-[13.5px] leading-[1.6] text-ink">${x}</span>`).join('')}
             </div>
           </aside>
           <section class="flex min-w-0 flex-[1_1_360px] flex-col gap-3.5">
-            <h2 class="font-sf m-0 text-[20px]">Residences</h2>
+            <h2 class="font-sf m-0 text-[20px]">Адреса</h2>
             ${led.addresses.map((a: string[]) => `
               <div class="flex flex-col gap-1.5 border-t border-line pt-3.5">
                 <span class="eti text-faint" style="font-size:10px">${a[0]}</span>
                 <span class="text-[13.5px] leading-[1.65] text-ink">${a[1]}</span>
               </div>`).join('')}
-            <span class="eti cursor-pointer text-acc" style="font-size:11px">Add residence</span>
+            <span class="eti cursor-pointer text-acc" style="font-size:11px">Добавить адрес</span>
           </section>`;
       }
     }
