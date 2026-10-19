@@ -59,6 +59,7 @@ const clientData = JSON.stringify({
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
@@ -105,7 +106,7 @@ const clientData = JSON.stringify({
           <span data-house-dd-list class="absolute left-0 top-[calc(100%+7px)] z-40 hidden min-w-[190px] flex-col gap-2.5 border border-line bg-card p-3 shadow-[0_18px_32px_-24px_oklch(0.22_0.006_0/0.35)] [&.open]:flex"></span>
         </span>
         <span class="flex-1"></span>
-        <a href="https://github.com" target="_blank" rel="noopener" class="hidden text-soft transition hover:text-acc sm:inline">GitHub</a>
+        <a href="https://micro-studio.vercel.app/ru/work/maison-archive" target="_blank" rel="noopener" class="hidden text-soft transition hover:text-acc sm:inline">Demo</a>
         <span data-house-meta class="hidden text-faint sm:inline"></span>
       </div>
     </div>
@@ -156,10 +157,10 @@ const clientData = JSON.stringify({
     <!-- ── Footer ── -->
     <footer class="mt-20 border-t border-line bg-tint">
       <div class="eti mx-auto flex max-w-[1240px] flex-col gap-3 px-3 py-5 text-faint sm:flex-row sm:flex-wrap sm:items-center sm:justify-between sm:gap-3 sm:px-6 sm:py-6">
-        <span class="hidden lg:inline">Astro · Tailwind v4 · Shopify Storefront API</span>
+        <span>Demo store by MicroStudio · all houses and pieces are fictional · based on the Maison theme by njxui (MIT)</span>
         <span class="flex flex-wrap gap-x-5 gap-y-1.5">
-          <a href="https://instagram.com" target="_blank" rel="noopener" class="text-soft transition hover:text-acc">Instagram</a>
-          <a href="https://github.com" target="_blank" rel="noopener" class="text-acc hover:text-acc-deep">GitHub</a>
+          <a href="https://micro-studio.vercel.app/ru/work/maison-archive" target="_blank" rel="noopener" class="text-soft transition hover:text-acc">MicroStudio</a>
+          <a href="https://github.com/njbSaab/astro-njx-maison" target="_blank" rel="noopener" class="text-acc hover:text-acc-deep">Original theme</a>
         </span>
       </div>
     </footer>
@@ -399,7 +400,7 @@ const clientData = JSON.stringify({
               <p class="m-0 mt-1.5 text-[14.5px] leading-[1.75] text-soft">${p.note}</p>
             </div>
             <div class="flex flex-col">
-              ${[['Reference', p.ref], ['Material', p.material], ['Era', p.epoch], ['Origin', p.origin], ['Specification', p.spec], ['Availability', avail], ['Patron rating', p.rating.toFixed(1) + '★']].map(([k, v]) => `
+              ${[['Reference', p.ref], ['Material', p.material], ['Era', p.epoch], ['Origin', p.origin], ['Specification', p.spec], ['Availability', avail]].map(([k, v]) => `
                 <div class="flex flex-wrap gap-x-[18px] gap-y-1 border-t border-line py-3">
                   <span class="eti w-[140px] flex-none text-faint" style="font-size:10.5px">${k}</span>
                   <span class="min-w-0 flex-1 text-[13.5px] text-ink">${v}</span>

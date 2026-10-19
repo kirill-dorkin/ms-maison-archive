@@ -33,7 +33,6 @@ const productLd = JSON.stringify({
     priceCurrency: 'USD',
     availability: meta.stock ? 'https://schema.org/InStock' : 'https://schema.org/PreOrder',
   },
-  aggregateRating: { '@type': 'AggregateRating', ratingValue: meta.rating, reviewCount: 24 },
 });
 
 const specs: [string, string][] = [
@@ -43,7 +42,6 @@ const specs: [string, string][] = [
   ['Origin', meta.origin],
   ['Specification', meta.spec],
   ['Availability', availability],
-  ['Patron rating', Number(meta.rating).toFixed(1) + '★'],
 ];
 ---
 

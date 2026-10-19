@@ -90,8 +90,8 @@
   },
   {
    "handle": "kingsman",
-   "name": "Kingsman & Sterling Bespoke",
-   "short": "Kingsman & Sterling",
+   "name": "Ashcombe & Sterling Bespoke",
+   "short": "Ashcombe & Sterling",
    "meta": "Est. 1904 · Savile Row",
    "brandLabel": "Atelier",
    "title": "Hand tailoring on a floating canvas",
@@ -271,7 +271,7 @@
    "handle": "mhh-1140-minute-bridge-tourbillon",
    "title": "Minute-bridge Tourbillon",
    "description": "One-minute tourbillon with a hand-engraved bridge and 72-hour reserve.",
-   "vendor": "Vacheron Reverchon",
+   "vendor": "Reverchon & Fils",
    "images": [
     {
      "src": "/products/mhh-1140.jpg",
@@ -319,7 +319,7 @@
    "handle": "mhh-0872-grand-feu-perpetual-calendar",
    "title": "Grand Feu Perpetual Calendar",
    "description": "Grand Feu enamel dial fired four times, with moon-phase indication.",
-   "vendor": "Patrice & Frères",
+   "vendor": "Duret & Frères",
    "images": [
     {
      "src": "/products/mhh-0872.jpg",
@@ -367,7 +367,7 @@
    "handle": "mhh-0455-sealed-pocket-chronometer",
    "title": "Sealed Pocket Chronometer",
    "description": "Observation chronometer with its original Neuchâtel observatory bulletin.",
-   "vendor": "Girard Aubry",
+   "vendor": "Aubry Horlogers",
    "images": [
     {
      "src": "/products/mhh-0455.jpg",
@@ -415,7 +415,7 @@
    "handle": "mhh-1502-salon-minute-repeater",
    "title": "Salon Minute Repeater",
    "description": "Cathedral-gong repeater; the case is assembled for a named patron.",
-   "vendor": "Vacheron Reverchon",
+   "vendor": "Reverchon & Fils",
    "images": [
     {
      "src": "/products/mhh-1502.jpg",
@@ -463,7 +463,7 @@
    "handle": "mhh-0611-column-wheel-chronograph",
    "title": "Column-wheel Chronograph",
    "description": "Column wheel and horizontal clutch under applied Arabic indices.",
-   "vendor": "Lange Söhne Werkstatt",
+   "vendor": "Albrecht Werkstatt",
    "images": [
     {
      "src": "/products/mhh-0611.jpg",
@@ -511,7 +511,7 @@
    "handle": "mhh-0398-table-regulator",
    "title": "Table Regulator",
    "description": "Precision regulator with a seconds pendulum in a rosewood case.",
-   "vendor": "Girard Aubry",
+   "vendor": "Aubry Horlogers",
    "images": [
     {
      "src": "/products/mhh-0398.jpg",
@@ -559,7 +559,7 @@
    "handle": "mhh-1291-voyageur-dual-time",
    "title": "Voyageur Dual Time",
    "description": "Second time zone with day-night indication over a guilloché centre.",
-   "vendor": "Patrice & Frères",
+   "vendor": "Duret & Frères",
    "images": [
     {
      "src": "/products/mhh-1291.jpg",
@@ -607,7 +607,7 @@
    "handle": "mhh-1777-museum-skeleton",
    "title": "Museum Skeleton",
    "description": "Single example from the workshop archive, skeletonised entirely by hand.",
-   "vendor": "Lange Söhne Werkstatt",
+   "vendor": "Albrecht Werkstatt",
    "images": [
     {
      "src": "/products/mhh-1777.jpg",
@@ -655,7 +655,7 @@
    "handle": "mhh-0233-enamel-hunter-pocket-watch",
    "title": "Enamel Hunter Pocket Watch",
    "description": "Hunter case with a hand-painted enamel scene inside the cover.",
-   "vendor": "Girard Aubry",
+   "vendor": "Aubry Horlogers",
    "images": [
     {
      "src": "/products/mhh-0233.jpg",
@@ -703,7 +703,7 @@
    "handle": "mhh-1633-observatory-deck-chronometer",
    "title": "Observatory Deck Chronometer",
    "description": "Gimballed deck chronometer with its issue plaque and rating sheet.",
-   "vendor": "Lange Söhne Werkstatt",
+   "vendor": "Albrecht Werkstatt",
    "images": [
     {
      "src": "/products/mhh-1633.jpg",
@@ -751,7 +751,7 @@
    "handle": "mhh-1888-founders-grande-sonnerie",
    "title": "Founders Grande Sonnerie",
    "description": "Grande et petite sonnerie from the founding bench, fully documented.",
-   "vendor": "Vacheron Reverchon",
+   "vendor": "Reverchon & Fils",
    "images": [
     {
      "src": "/products/mhh-1888.jpg",
@@ -799,7 +799,7 @@
    "handle": "mhh-0740-guilloch-dress-watch",
    "title": "Guilloché Dress Watch",
    "description": "Hand-turned guilloché centre under a boxed crystal, time-only.",
-   "vendor": "Patrice & Frères",
+   "vendor": "Duret & Frères",
    "images": [
     {
      "src": "/products/mhh-0740.jpg",
@@ -847,7 +847,7 @@
    "handle": "ks-2210-double-breasted-super-160s-suit",
    "title": "Double-breasted Super 160s Suit",
    "description": "Floating canvas of horsehair, three fittings before finishing.",
-   "vendor": "Kingsman Tailors",
+   "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-2210.jpg",
@@ -1039,7 +1039,7 @@
    "handle": "ks-2712-shawl-collar-dinner-jacket",
    "title": "Shawl-collar Dinner Jacket",
    "description": "Silk shawl collar with single-braided trousers.",
-   "vendor": "Kingsman Tailors",
+   "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-2712.jpg",
@@ -1135,7 +1135,7 @@
    "handle": "ks-3311-norfolk-tweed-jacket",
    "title": "Norfolk Tweed Jacket",
    "description": "Box-pleated yoke and belt in handwoven tweed.",
-   "vendor": "Kingsman Tailors",
+   "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-3311.jpg",
@@ -1183,7 +1183,7 @@
    "handle": "ks-4001-private-salon-tailcoat",
    "title": "Private-salon Tailcoat",
    "description": "Barathea with silk lapels, made to measure only.",
-   "vendor": "Kingsman Tailors",
+   "vendor": "Ashcombe Tailors",
    "images": [
     {
      "src": "/products/ks-4001.jpg",

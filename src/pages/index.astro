@@ -49,7 +49,6 @@ import Layout from '../layouts/Layout.astro';
             <option value="archive">Archive selection</option>
             <option value="asc">Valuation, ascending</option>
             <option value="desc">Valuation, descending</option>
-            <option value="rating">Patron rating</option>
             <option value="rare">Museum rarities</option>
           </select>
           <div class="eti flex gap-3.5" style="font-size:11px">
@@ -84,7 +83,7 @@ import Layout from '../layouts/Layout.astro';
     let min = 0; let max: number | null = null;
     let sort = 'archive', view = 'grid';
     let open: Record<string, boolean> = { brands: true, materials: true, epochs: false, flags: false };
-    const FLAGS: [string, string][] = [['stock', 'In the vault'], ['bespoke', 'Bespoke commission'], ['top', 'Rated 4.9★ and above']];
+    const FLAGS: [string, string][] = [['stock', 'In the vault'], ['bespoke', 'Bespoke commission']];
 
     const pool = () => D.pieces.filter((p: any) => p.house === getHouse());
     function bounds() {
@@ -107,11 +106,10 @@ import Layout from '../layouts/Layout.astro';
         (!epochs.size || epochs.has(p.epoch)) &&
         (!flags.has('stock') || p.stock) &&
         (!flags.has('bespoke') || p.bespoke) &&
-        (!flags.has('top') || p.rating >= 4.9));
+        true);
       if (sort === 'asc') out = out.slice().sort((a: any, c: any) => a.price - c.price);
       if (sort === 'desc') out = out.slice().sort((a: any, c: any) => c.price - a.price);
-      if (sort === 'rating') out = out.slice().sort((a: any, c: any) => c.rating - a.rating);
-      if (sort === 'rare') out = out.filter((p: any) => p.bespoke || p.rating >= 4.9);
+      if (sort === 'rare') out = out.filter((p: any) => p.bespoke);
       return out;
     }
 
@@ -234,7 +232,6 @@ import Layout from '../layouts/Layout.astro';
             <span class="text-[13px] text-soft">${p.material}</span>
             <div class="mt-1 flex items-baseline gap-2.5">
               <span class="font-mono text-[13px]" data-usd="${p.price}">${money(p.price)}</span>
-              <span class="font-mono text-[11px] text-faint">${p.rating.toFixed(1)}★</span>
               ${p.bespoke ? '<span class="eti text-acc" style="font-size:10px">Bespoke only</span>' : ''}
             </div>
             ${bagBtn(p, 'mt-2 w-full')}
@@ -257,7 +254,6 @@ import Layout from '../layouts/Layout.astro';
           </div>
           <div class="flex flex-[0_1_170px] flex-col gap-1.5">
             <span class="font-mono text-[14px]" data-usd="${p.price}">${money(p.price)}</span>
-            <span class="font-mono text-[11px] text-faint">${p.rating.toFixed(1)}★</span>
             <span class="eti text-muted" style="font-size:10px">${avail}</span>
             ${bagBtn(p, 'mt-2')}
           </div>
