@@ -26,11 +26,11 @@ import Layout from '../layouts/Layout.astro';
         <button data-facet-close class="eti -mb-2 cursor-pointer self-end text-soft transition hover:text-acc lg:hidden">Close ✕</button>
         <div class="flex flex-col gap-3">
           <div class="eti text-muted">Valuation, <span data-cur-sign>$</span></div>
-          <input data-price-range type="range" class="w-full" />
+          <input data-price-range type="range" class="w-full" aria-label="Maximum valuation" />
           <div class="flex items-center gap-2 font-mono text-[12px] text-soft">
-            <input data-price-min class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
+            <input data-price-min aria-label="Minimum valuation" class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
             <span class="text-faint">—</span>
-            <input data-price-max class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
+            <input data-price-max aria-label="Maximum valuation, exact" class="w-full min-w-0 rounded-[2px] border border-rule bg-transparent px-[7px] py-[5px] font-mono text-[12px] text-ink outline-none" />
           </div>
         </div>
         <div data-facets class="flex flex-col gap-7"></div>
@@ -45,7 +45,7 @@ import Layout from '../layouts/Layout.astro';
           </button>
           <span data-count class="eti text-muted" style="font-size:11px"></span>
           <span class="flex-1"></span>
-          <select data-sort class="rounded-[2px] border border-rule bg-transparent px-2.5 py-1.5 text-[13px] text-ink outline-none">
+          <select data-sort aria-label="Sort pieces" class="rounded-[2px] border border-rule bg-transparent px-2.5 py-1.5 text-[13px] text-ink outline-none">
             <option value="archive">Archive selection</option>
             <option value="asc">Valuation, ascending</option>
             <option value="desc">Valuation, descending</option>

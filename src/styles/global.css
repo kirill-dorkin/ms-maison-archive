@@ -12,8 +12,8 @@
   --color-rule: oklch(0.88 0.004 0);
   --color-ink: oklch(0.22 0.006 0);
   --color-soft: oklch(0.42 0.006 0);
-  --color-muted: oklch(0.5 0.006 0);
-  --color-faint: oklch(0.58 0.006 0);
+  --color-muted: oklch(0.48 0.006 0);
+  --color-faint: oklch(0.5 0.006 0);
   --color-acc: oklch(0.45 0.09 25);
   --color-acc-deep: oklch(0.35 0.09 25);
 
